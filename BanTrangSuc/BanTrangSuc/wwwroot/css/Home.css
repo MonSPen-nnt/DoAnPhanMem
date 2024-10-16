@@ -1,0 +1,41 @@
+﻿.slider-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+    .slide img {
+        width: 100%;
+        height: auto;
+    }
+
+.slider-controls .prev, .slider-controls .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.slider-controls .prev {
+    left: 10px;
+}
+
+.slider-controls .next {
+    right: 10px;
+}
+
+h2.title {
+    margin-top: 20px
+}

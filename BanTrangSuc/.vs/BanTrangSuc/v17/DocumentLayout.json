@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|c:\\users\\admin\\desktop\\bantrangsuc\\bantrangsuc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|solutionrelative:bantrangsuc\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|c:\\users\\admin\\desktop\\bantrangsuc\\bantrangsuc\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|solutionrelative:bantrangsuc\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|c:\\users\\admin\\desktop\\bantrangsuc\\bantrangsuc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|solutionrelative:bantrangsuc\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|c:\\users\\admin\\desktop\\bantrangsuc\\bantrangsuc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|solutionrelative:bantrangsuc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|c:\\users\\admin\\desktop\\bantrangsuc\\bantrangsuc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|solutionrelative:bantrangsuc\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|c:\\users\\admin\\desktop\\bantrangsuc\\bantrangsuc\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|solutionrelative:bantrangsuc\\wwwroot\\css\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|c:\\users\\admin\\desktop\\bantrangsuc\\bantrangsuc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|solutionrelative:bantrangsuc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|c:\\users\\admin\\desktop\\bantrangsuc\\bantrangsuc\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|solutionrelative:bantrangsuc\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|c:\\users\\admin\\desktop\\bantrangsuc\\bantrangsuc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|solutionrelative:bantrangsuc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|c:\\users\\admin\\desktop\\bantrangsuc\\bantrangsuc\\data\\dapmtrangcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4396F1A8-8652-4E96-BF5D-77FE8E63F4FD}|BanTrangSuc\\BanTrangSuc.csproj|solutionrelative:bantrangsuc\\data\\dapmtrangcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\wwwroot\\css\\Home.css",
+              "RelativeDocumentMoniker": "BanTrangSuc\\wwwroot\\css\\Home.css",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\wwwroot\\css\\Home.css",
+              "RelativeToolTip": "BanTrangSuc\\wwwroot\\css\\Home.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-16T16:28:48.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "BanTrangSuc\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "BanTrangSuc\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-16T16:23:36.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BanTrangSuc\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BanTrangSuc\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T16:20:19.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "BanTrangSuc\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "BanTrangSuc\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T16:20:14.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BanTrangSuc\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BanTrangSuc\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T16:19:12.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\wwwroot\\css\\main.css",
+              "RelativeDocumentMoniker": "BanTrangSuc\\wwwroot\\css\\main.css",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\wwwroot\\css\\main.css",
+              "RelativeToolTip": "BanTrangSuc\\wwwroot\\css\\main.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-10-16T16:27:20.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SanPhamsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\Controllers\\SanPhamsController.cs",
+              "RelativeDocumentMoniker": "BanTrangSuc\\Controllers\\SanPhamsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\Controllers\\SanPhamsController.cs",
+              "RelativeToolTip": "BanTrangSuc\\Controllers\\SanPhamsController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T16:16:47.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\Program.cs",
+              "RelativeDocumentMoniker": "BanTrangSuc\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\Program.cs",
+              "RelativeToolTip": "BanTrangSuc\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T16:16:47.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DapmTrangContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\Data\\DapmTrangContext.cs",
+              "RelativeDocumentMoniker": "BanTrangSuc\\Data\\DapmTrangContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\Data\\DapmTrangContext.cs",
+              "RelativeToolTip": "BanTrangSuc\\Data\\DapmTrangContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T16:16:47.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\appsettings.json",
+              "RelativeDocumentMoniker": "BanTrangSuc\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\BanTrangSuc\\BanTrangSuc\\appsettings.json",
+              "RelativeToolTip": "BanTrangSuc\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-16T16:16:47.487Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
