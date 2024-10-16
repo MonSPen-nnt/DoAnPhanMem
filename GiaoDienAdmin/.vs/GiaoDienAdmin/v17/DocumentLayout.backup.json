@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DOANPM_LT\\GiaoDienAdmin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|d:\\doanpm_lt\\giaodienadmin\\giaodienadmin\\pages\\sanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|solutionrelative:giaodienadmin\\pages\\sanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|d:\\doanpm_lt\\giaodienadmin\\giaodienadmin\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|solutionrelative:giaodienadmin\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|d:\\doanpm_lt\\giaodienadmin\\giaodienadmin\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|solutionrelative:giaodienadmin\\pages\\privacy.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|d:\\doanpm_lt\\giaodienadmin\\giaodienadmin\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|solutionrelative:giaodienadmin\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|d:\\doanpm_lt\\giaodienadmin\\giaodienadmin\\pages\\danhmuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|solutionrelative:giaodienadmin\\pages\\danhmuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|d:\\doanpm_lt\\giaodienadmin\\giaodienadmin\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|solutionrelative:giaodienadmin\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|d:\\doanpm_lt\\giaodienadmin\\giaodienadmin\\pages\\nguoidung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|solutionrelative:giaodienadmin\\pages\\nguoidung.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|d:\\doanpm_lt\\giaodienadmin\\giaodienadmin\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|solutionrelative:giaodienadmin\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|d:\\doanpm_lt\\giaodienadmin\\giaodienadmin\\pages\\voucher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|solutionrelative:giaodienadmin\\pages\\voucher.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|d:\\doanpm_lt\\giaodienadmin\\giaodienadmin\\pages\\donhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|solutionrelative:giaodienadmin\\pages\\donhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|d:\\doanpm_lt\\giaodienadmin\\giaodienadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A498322-9F3F-4EEF-B84B-066ACD1507A8}|GiaoDienAdmin\\GiaoDienAdmin.csproj|solutionrelative:giaodienadmin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "GiaoDienAdmin\\Pages\\Privacy.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "GiaoDienAdmin\\Pages\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T17:19:11.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Privacy.cshtml.cs",
+              "DocumentMoniker": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\Privacy.cshtml.cs",
+              "RelativeDocumentMoniker": "GiaoDienAdmin\\Pages\\Privacy.cshtml.cs",
+              "ToolTip": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\Privacy.cshtml.cs",
+              "RelativeToolTip": "GiaoDienAdmin\\Pages\\Privacy.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:19:11.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "GiaoDienAdmin\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "GiaoDienAdmin\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T17:17:29.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DanhMuc.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\DanhMuc.cshtml",
+              "RelativeDocumentMoniker": "GiaoDienAdmin\\Pages\\DanhMuc.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\DanhMuc.cshtml",
+              "RelativeToolTip": "GiaoDienAdmin\\Pages\\DanhMuc.cshtml",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAiwJMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T17:11:28.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VOUCHER.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\VOUCHER.cshtml",
+              "RelativeDocumentMoniker": "GiaoDienAdmin\\Pages\\VOUCHER.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\VOUCHER.cshtml",
+              "RelativeToolTip": "GiaoDienAdmin\\Pages\\VOUCHER.cshtml",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAiwKQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T17:06:20.948Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NguoiDung.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\NguoiDung.cshtml",
+              "RelativeDocumentMoniker": "GiaoDienAdmin\\Pages\\NguoiDung.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\NguoiDung.cshtml",
+              "RelativeToolTip": "GiaoDienAdmin\\Pages\\NguoiDung.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAiwBoAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T16:58:51.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SanPham.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\SanPham.cshtml",
+              "RelativeDocumentMoniker": "GiaoDienAdmin\\Pages\\SanPham.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\SanPham.cshtml",
+              "RelativeToolTip": "GiaoDienAdmin\\Pages\\SanPham.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAiwEsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T16:49:48.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DonHang.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\DonHang.cshtml",
+              "RelativeDocumentMoniker": "GiaoDienAdmin\\Pages\\DonHang.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\DonHang.cshtml",
+              "RelativeToolTip": "GiaoDienAdmin\\Pages\\DonHang.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T17:03:13.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "GiaoDienAdmin\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\Index.cshtml",
+              "RelativeToolTip": "GiaoDienAdmin\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAACoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T16:40:03.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "GiaoDienAdmin\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "GiaoDienAdmin\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEIBAAAAAAAAAAAiwFoBAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T16:34:14.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Program.cs",
+              "RelativeDocumentMoniker": "GiaoDienAdmin\\Program.cs",
+              "ToolTip": "D:\\DOANPM_LT\\GiaoDienAdmin\\GiaoDienAdmin\\Program.cs",
+              "RelativeToolTip": "GiaoDienAdmin\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T16:33:35.487Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
