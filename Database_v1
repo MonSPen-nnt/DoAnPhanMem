@@ -91,7 +91,7 @@ CREATE TABLE BaoHanh
 
 CREATE TABLE DonHang
 (
-  MaDonHang Varchar(20) NOT NULL,
+  MaDonHang Varchar(50) NOT NULL,
   NgayDatHang DATE NOT NULL,
   TrangThai NVARCHAR(50) NOT NULL,
   PhiVanChuyen FLOAT NOT NULL,
