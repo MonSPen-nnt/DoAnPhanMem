@@ -1,0 +1,22 @@
+﻿@model LoginViewModel
+
+<h2>Đăng nhập</h2>
+
+<form asp-action="Login" method="post">
+    <div>
+        <label>Email:</label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+    <div>
+        <label>Mật khẩu:</label>
+        <input asp-for="MatKhau" type="password" />
+        <span asp-validation-for="MatKhau"></span>
+    </div>
+    <button type="submit">Đăng nhập</button>
+</form>
+
+@if (!string.IsNullOrEmpty(ViewData["ErrorMessage"] as string))
+{
+    <div>@ViewData["ErrorMessage"]</div>
+}
