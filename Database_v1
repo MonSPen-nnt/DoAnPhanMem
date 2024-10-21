@@ -1,5 +1,5 @@
-create database DAPM_Trang
-use DAPM_Trang
+create database DAPM_Trangv1
+use DAPM_Trangv1
 
 CREATE TABLE TaiKhoan
 (
