@@ -1,12 +1,12 @@
-create database DAPM_Trang
-use DAPM_Trang
+create database DAPM_Trangv1
+use DAPM_Trangv1
 
 CREATE TABLE TaiKhoan
 (
   MaTaiKhoan INT IDENTITY (1, 1)  NOT NULL,
   Email VARCHAR(50) NOT NULL,
   MatKhau VARCHAR(15) NOT NULL,
-  TrangThai bit not null default 0,
+  VaiTro bit not null default 0,
   PRIMARY KEY (MaTaiKhoan)
 );
 CREATE TABLE ChucVu(
@@ -42,7 +42,7 @@ CREATE TABLE NhaCungCap (
 );
 CREATE TABLE VOUCHER(
 MaVoucher INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
-TenVoucher NVARCHAR(MAX) not null,
+	TenVoucher nvarchar(max) not null,
 GiaTri int not null,
 ThoiGianBatDau datetime not null default getdate(),
 ThoiGianKetThuc datetime not null default getdate(),
@@ -70,7 +70,6 @@ CREATE TABLE SanPham
   MaDanhMuc INT NOT NULL,
   NgayTao date not null default GetDate(),
   MaNhaCungCap int not null,
- 
   PRIMARY KEY (MaSanPham),
   FOREIGN KEY (MaVatLieu) REFERENCES VatLieu(MaVatLieu),
   FOREIGN KEY (MaDanhMuc) REFERENCES DanhMuc(MaDanhMuc),
@@ -104,8 +103,8 @@ CREATE TABLE DonHang
   TongSL int not null default 0,
   TongSoTien int not null default 0,
   TienPhaiTra int not null default 0,
-  MaVoucher int not null,
-  HinhThucNhanHang NVARCHAR(50) DEFAULT 'Giao Hang',
+  MaVoucher int ,
+  HinhThucNhanHang NVARCHAR(50) not null DEFAULT 'Giao Hang',
     FOREIGN KEY (MaVoucher) REFERENCES Voucher(MaVoucher),
   FOREIGN KEY (MaNguoiGui) REFERENCES NguoiDung(MaNguoiDung),
   PRIMARY KEY (MaDonHang)
@@ -169,6 +168,10 @@ CREATE TABLE KichCo
     SoLuong int not null default 1,
 	FOREIGN KEY (MaSanPham) REFERENCES SanPham(MaSanPham)
 );
+ALTER TABLE KichCo
+ADD CONSTRAINT FK_KichCo_SanPham
+FOREIGN KEY (MaSanPham) REFERENCES SanPham(MaSanPham)
+ON DELETE CASCADE;
 CREATE TABLE ThanhToan
 (
     MaThanhToan INT IDENTITY(1,1) PRIMARY KEY, 
