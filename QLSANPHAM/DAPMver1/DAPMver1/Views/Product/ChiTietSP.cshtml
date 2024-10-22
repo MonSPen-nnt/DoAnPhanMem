@@ -1,0 +1,150 @@
+﻿@model DAPMver1.Data.SanPham
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Sản Phẩm</title>
+    <link rel="stylesheet" href="~/css/ChiTietSPStyle.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        padding: 20px;
+    }
+
+    .product-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-title {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    .product-name {
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    .product-details {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .product-image img {
+        max-width: 400px;
+        border-radius: 10px;
+    }
+
+    .product-info {
+        max-width: 600px;
+    }
+
+        .product-info p {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+    del {
+        color: red;
+    }
+
+    label {
+        display: block;
+        font-size: 1.2em;
+        margin-bottom: 5px;
+    }
+
+    select, input {
+        padding: 10px;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .add-to-cart {
+        background-color: #ff9800;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 1.2em;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .add-to-cart:hover {
+            background-color: #e68900;
+        }
+
+    .product-description {
+        margin-top: 20px;
+    }
+
+        .product-description h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .product-description p {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+
+</style>
+<body>
+    <div class="product-container">
+        <h1 class="product-title">Chi Tiết Sản Phẩm</h1>
+        <h2 class="product-name">Bông Tai Kim Cương</h2>
+        <div class="product-details">
+            <div class="product-image">
+                <img src="~/images/BongTaiKimCuongVangY.png" alt="Product 2">
+            </div>
+            <div class="product-info">
+                <p><strong>Giá Mới:</strong> @Model.GiaTienMoi VND</p>
+                <p><strong>Giá Cũ:</strong> <del>@Model.GiaTienCu VND</del></p>
+
+                <label for="size">Chọn kích cỡ:</label>
+                <select id="kichCo" name="KichCo" class="form-control">
+                    <option value="">-- Chọn kích cỡ --</option>
+                    @foreach (var kichCo in Model.KichCos)
+                    {
+                        <option value="@kichCo.MaKichCo">@kichCo.SoKichCo - Còn lại: @kichCo.SoLuong</option>
+                    }
+                </select>
+
+                <label for="quantity">Số lượng:</label>
+                <input type="number" id="quantity" value="1" min="1">
+                <a href="~/GioHang/Index">
+                    <button class="add-to-cart">Thêm vào giỏ hàng</button>
+
+                </a>
+
+                <div class="product-description">
+                    <h3>Mô tả sản phẩm</h3>
+                    <p><strong>Thương hiệu:</strong> ThuanTaiPNJ</p>
+                    <p><strong>Chất liệu:</strong> @Model.MaVatLieuNavigation.TenVatlieu</p>
+                    <p><strong>Mô tả:</strong> @Model.MoTa</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

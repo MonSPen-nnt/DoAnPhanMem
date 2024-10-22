@@ -1,0 +1,95 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\uploads\" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.6" />
+      <Folder Include="Areas\Admin\Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\images\anh-nen-4k %2838%29.jpg" />
+    <None Include="wwwroot\lib\images\ba6427b4b5-balenciaga-logo-balenciaga-svg-balenciaga-brand-logo-svg-fashion-company-svg.png" />
+    <None Include="wwwroot\lib\images\banner.jpg" />
+    <None Include="wwwroot\lib\images\BongTaiKimCuong.png" />
+    <None Include="wwwroot\lib\images\BongTaiKimCuongVangY.png" />
+    <None Include="wwwroot\lib\images\BongTaiVangTrangY.png" />
+    <None Include="wwwroot\lib\images\brand1.jpg" />
+    <None Include="wwwroot\lib\images\brand2.jpg" />
+    <None Include="wwwroot\lib\images\brand3.jpg" />
+    <None Include="wwwroot\lib\images\cs2.jpg" />
+    <None Include="wwwroot\lib\images\DayChuyenVang18K.png" />
+    <None Include="wwwroot\lib\images\DayChuyenVangTrangY.png" />
+    <None Include="wwwroot\lib\images\icons\404.png" />
+    <None Include="wwwroot\lib\images\icons\advertisement.jpg" />
+    <None Include="wwwroot\lib\images\icons\checkout.png" />
+    <None Include="wwwroot\lib\images\icons\email.png" />
+    <None Include="wwwroot\lib\images\icons\facebook.png" />
+    <None Include="wwwroot\lib\images\icons\heart.png" />
+    <None Include="wwwroot\lib\images\icons\iconnha.jpg" />
+    <None Include="wwwroot\lib\images\icons\iframe1.png" />
+    <None Include="wwwroot\lib\images\icons\iframe2.png" />
+    <None Include="wwwroot\lib\images\icons\instagram.png" />
+    <None Include="wwwroot\lib\images\icons\jcb.png" />
+    <None Include="wwwroot\lib\images\icons\left-arrow.png" />
+    <None Include="wwwroot\lib\images\icons\login.png" />
+    <None Include="wwwroot\lib\images\icons\logo.jpg" />
+    <None Include="wwwroot\lib\images\icons\mail.png" />
+    <None Include="wwwroot\lib\images\icons\new.jpg" />
+    <None Include="wwwroot\lib\images\icons\Phone.jpg" />
+    <None Include="wwwroot\lib\images\icons\rating.png" />
+    <None Include="wwwroot\lib\images\icons\right-arrow.png" />
+    <None Include="wwwroot\lib\images\icons\searchicon.png" />
+    <None Include="wwwroot\lib\images\icons\share.png" />
+    <None Include="wwwroot\lib\images\icons\shopping-cart.png" />
+    <None Include="wwwroot\lib\images\icons\shopping.png" />
+    <None Include="wwwroot\lib\images\icons\socials.png" />
+    <None Include="wwwroot\lib\images\icons\user.png" />
+    <None Include="wwwroot\lib\images\icons\visa.png" />
+    <None Include="wwwroot\lib\images\icons\youtube.png" />
+    <None Include="wwwroot\lib\images\LacTayVangTrang.png" />
+    <None Include="wwwroot\lib\images\LogoBoSuuTap.jpg" />
+    <None Include="wwwroot\lib\images\LogoJewelry.jpg" />
+    <None Include="wwwroot\lib\images\LogoPNJ.png" />
+    <None Include="wwwroot\lib\images\Lui.jpg" />
+    <None Include="wwwroot\lib\images\OIP.jpg" />
+    <None Include="wwwroot\lib\images\VongTayVang18k.png" />
+    <None Include="wwwroot\lib\images\z5427263651064_2eab27329fd230d12d90e907ac5e5a3b.jpg" />
+    <None Include="wwwroot\lib\images\z5531484858025_0e60d6b5ec396337bf7710e1f6b05395.jpg" />
+    <None Include="wwwroot\lib\images\z5531841662099_e3c7a3ca23ff92697b0dcb10f2f362dd.jpg" />
+  </ItemGroup>
+
+</Project>
