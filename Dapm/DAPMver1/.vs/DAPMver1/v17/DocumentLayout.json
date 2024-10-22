@@ -1,0 +1,410 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\areas\\admin\\views\\vatlieux\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\areas\\admin\\views\\vatlieux\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\areas\\admin\\views\\vatlieux\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\areas\\admin\\views\\vatlieux\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\areas\\admin\\views\\sanphams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\areas\\admin\\views\\sanphams\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\areas\\admin\\controllers\\vatlieuxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\areas\\admin\\controllers\\vatlieuxcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\areas\\admin\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\areas\\admin\\controllers\\sanphamscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\areas\\admin\\controllers\\nhacungcapscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\areas\\admin\\controllers\\nhacungcapscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\areas\\admin\\views\\sanphams\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\areas\\admin\\views\\sanphams\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\areas\\admin\\views\\nhacungcaps\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\areas\\admin\\views\\nhacungcaps\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\areas\\admin\\views\\sanphams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\areas\\admin\\views\\sanphams\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\areas\\admin\\views\\danhmucs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\areas\\admin\\views\\danhmucs\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\areas\\admin\\views\\danhmucs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\areas\\admin\\views\\danhmucs\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\areas\\admin\\views\\danhmucs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\areas\\admin\\views\\danhmucs\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\areas\\admin\\views\\nhacungcaps\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\areas\\admin\\views\\nhacungcaps\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\areas\\admin\\views\\nhacungcaps\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\areas\\admin\\views\\nhacungcaps\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\areas\\admin\\controllers\\adminhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\areas\\admin\\controllers\\adminhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\areas\\admin\\views\\adminhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\areas\\admin\\views\\adminhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\areas\\admin\\views\\vatlieux\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\areas\\admin\\views\\vatlieux\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\cnpmnc\\CNPMNC_Giao\\CNPMNC_Giao\\Areas\\Admin\\Views\\SanPhams\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\data\\dapmtrangv1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\data\\dapmtrangv1context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|d:\\doanpm_lt\\baigoc\\dapmver1\\dapmver1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\NhaCungCaps\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DAPMver1\\Areas\\Admin\\Views\\NhaCungCaps\\Edit.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\NhaCungCaps\\Edit.cshtml",
+              "RelativeToolTip": "DAPMver1\\Areas\\Admin\\Views\\NhaCungCaps\\Edit.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAIcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T16:49:40.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SanPhamsController.cs",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Controllers\\SanPhamsController.cs",
+              "RelativeDocumentMoniker": "DAPMver1\\Areas\\Admin\\Controllers\\SanPhamsController.cs",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Controllers\\SanPhamsController.cs",
+              "RelativeToolTip": "DAPMver1\\Areas\\Admin\\Controllers\\SanPhamsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwCEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:02:38.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\VatLieux\\Create.cshtml",
+              "RelativeDocumentMoniker": "DAPMver1\\Areas\\Admin\\Views\\VatLieux\\Create.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\VatLieux\\Create.cshtml",
+              "RelativeToolTip": "DAPMver1\\Areas\\Admin\\Views\\VatLieux\\Create.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAmwIsAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:29:44.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\VatLieux\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DAPMver1\\Areas\\Admin\\Views\\VatLieux\\Edit.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\VatLieux\\Edit.cshtml",
+              "RelativeToolTip": "DAPMver1\\Areas\\Admin\\Views\\VatLieux\\Edit.cshtml",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAmwGgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:30:11.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VatLieuxController.cs",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Controllers\\VatLieuxController.cs",
+              "RelativeDocumentMoniker": "DAPMver1\\Areas\\Admin\\Controllers\\VatLieuxController.cs",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Controllers\\VatLieuxController.cs",
+              "RelativeToolTip": "DAPMver1\\Areas\\Admin\\Controllers\\VatLieuxController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:22:04.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\SanPhams\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DAPMver1\\Areas\\Admin\\Views\\SanPhams\\Edit.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\SanPhams\\Edit.cshtml",
+              "RelativeToolTip": "DAPMver1\\Areas\\Admin\\Views\\SanPhams\\Edit.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:06:53.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NhaCungCapsController.cs",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Controllers\\NhaCungCapsController.cs",
+              "RelativeDocumentMoniker": "DAPMver1\\Areas\\Admin\\Controllers\\NhaCungCapsController.cs",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Controllers\\NhaCungCapsController.cs",
+              "RelativeToolTip": "DAPMver1\\Areas\\Admin\\Controllers\\NhaCungCapsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:56:45.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\SanPhams\\Create.cshtml",
+              "RelativeDocumentMoniker": "DAPMver1\\Areas\\Admin\\Views\\SanPhams\\Create.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\SanPhams\\Create.cshtml",
+              "RelativeToolTip": "DAPMver1\\Areas\\Admin\\Views\\SanPhams\\Create.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAmwIAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:01:55.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\SanPhams\\Index.cshtml",
+              "RelativeDocumentMoniker": "DAPMver1\\Areas\\Admin\\Views\\SanPhams\\Index.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\SanPhams\\Index.cshtml",
+              "RelativeToolTip": "DAPMver1\\Areas\\Admin\\Views\\SanPhams\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwCIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T14:57:06.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\DanhMucs\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DAPMver1\\Areas\\Admin\\Views\\DanhMucs\\Edit.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\DanhMucs\\Edit.cshtml",
+              "RelativeToolTip": "DAPMver1\\Areas\\Admin\\Views\\DanhMucs\\Edit.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAmwJEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T16:32:28.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\NhaCungCaps\\Create.cshtml",
+              "RelativeDocumentMoniker": "DAPMver1\\Areas\\Admin\\Views\\NhaCungCaps\\Create.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\NhaCungCaps\\Create.cshtml",
+              "RelativeToolTip": "DAPMver1\\Areas\\Admin\\Views\\NhaCungCaps\\Create.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:06:20.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\NhaCungCaps\\Index.cshtml",
+              "RelativeDocumentMoniker": "DAPMver1\\Areas\\Admin\\Views\\NhaCungCaps\\Index.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\NhaCungCaps\\Index.cshtml",
+              "RelativeToolTip": "DAPMver1\\Areas\\Admin\\Views\\NhaCungCaps\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T14:57:20.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminHomeController.cs",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Controllers\\AdminHomeController.cs",
+              "RelativeDocumentMoniker": "DAPMver1\\Areas\\Admin\\Controllers\\AdminHomeController.cs",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Controllers\\AdminHomeController.cs",
+              "RelativeToolTip": "DAPMver1\\Areas\\Admin\\Controllers\\AdminHomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA+wBsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:49:01.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "DAPMver1\\Models\\LoginViewModel.cs",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "DAPMver1\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:32:48.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\DanhMucs\\Index.cshtml",
+              "RelativeDocumentMoniker": "DAPMver1\\Areas\\Admin\\Views\\DanhMucs\\Index.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\DanhMucs\\Index.cshtml",
+              "RelativeToolTip": "DAPMver1\\Areas\\Admin\\Views\\DanhMucs\\Index.cshtml",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAJQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T14:57:22.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\DanhMucs\\Create.cshtml",
+              "RelativeDocumentMoniker": "DAPMver1\\Areas\\Admin\\Views\\DanhMucs\\Create.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\DanhMucs\\Create.cshtml",
+              "RelativeToolTip": "DAPMver1\\Areas\\Admin\\Views\\DanhMucs\\Create.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAEAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:06:14.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "DAPMver1\\Models\\RegisterViewModel.cs",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "DAPMver1\\Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T15:32:53.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "DAPMver1\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "DAPMver1\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAIcBAAAAAAAAAAAAAKUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T14:49:01.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\VatLieux\\Index.cshtml",
+              "RelativeDocumentMoniker": "DAPMver1\\Areas\\Admin\\Views\\VatLieux\\Index.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\VatLieux\\Index.cshtml",
+              "RelativeToolTip": "DAPMver1\\Areas\\Admin\\Views\\VatLieux\\Index.cshtml",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAAALcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:24:01.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\AdminHome\\Index.cshtml",
+              "RelativeDocumentMoniker": "DAPMver1\\Areas\\Admin\\Views\\AdminHome\\Index.cshtml",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Areas\\Admin\\Views\\AdminHome\\Index.cshtml",
+              "RelativeToolTip": "DAPMver1\\Areas\\Admin\\Views\\AdminHome\\Index.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAWwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:31:35.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\cnpmnc\\CNPMNC_Giao\\CNPMNC_Giao\\Areas\\Admin\\Views\\SanPhams\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\..\\..\\cnpmnc\\CNPMNC_Giao\\CNPMNC_Giao\\Areas\\Admin\\Views\\SanPhams\\Create.cshtml",
+              "ToolTip": "D:\\cnpmnc\\CNPMNC_Giao\\CNPMNC_Giao\\Areas\\Admin\\Views\\SanPhams\\Create.cshtml",
+              "RelativeToolTip": "..\\..\\..\\cnpmnc\\CNPMNC_Giao\\CNPMNC_Giao\\Areas\\Admin\\Views\\SanPhams\\Create.cshtml",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAAMMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-22T15:10:44.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DapmTrangv1Context.cs",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Data\\DapmTrangv1Context.cs",
+              "RelativeDocumentMoniker": "DAPMver1\\Data\\DapmTrangv1Context.cs",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\Data\\DapmTrangv1Context.cs",
+              "RelativeToolTip": "DAPMver1\\Data\\DapmTrangv1Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-22T14:52:52.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\appsettings.json",
+              "RelativeDocumentMoniker": "DAPMver1\\appsettings.json",
+              "ToolTip": "D:\\DOANPM_LT\\BaiGoc\\DAPMver1\\DAPMver1\\appsettings.json",
+              "RelativeToolTip": "DAPMver1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-22T14:49:55.954Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

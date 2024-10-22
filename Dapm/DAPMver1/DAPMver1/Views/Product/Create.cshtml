@@ -1,0 +1,40 @@
+﻿@model DAPMver1.Data.SanPham
+
+<h2>Thêm sản phẩm</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label>Tên sản phẩm:</label>
+        <input asp-for="TenSanPham" />
+    </div>
+    <div>
+        <label>Giá tiền mới:</label>
+        <input asp-for="GiaTienMoi" />
+    </div>
+    <div>
+        <label>Giá tiền cũ:</label>
+        <input asp-for="GiaTienCu" />
+    </div>
+  
+    <div>
+        <label>Mô tả:</label>
+        <textarea asp-for="MoTa"></textarea>
+    </div>
+    <div>
+        <label>Ảnh sản phẩm:</label>
+        <input asp-for="AnhSp" />
+    </div>
+    <div>
+        <label>Loại sản phẩm:</label>
+        <select asp-for="MaDanhMuc" asp-items="@(new SelectList(ViewBag.DanhMuc, "MaDanhMuc", "TenDanhMuc"))"></select>
+    </div>
+    <div>
+        <label>Chất liệu:</label>
+        <select asp-for="MaVatLieu" asp-items="@(new SelectList(ViewBag.VatLieu, "MaVatLieu", "TenVatLieu"))"></select>
+    </div>
+    <div>
+        <label>Nhà cung cấp:</label>
+        <select asp-for="MaNhaCungCap" asp-items="@(new SelectList(ViewBag.NhaCungCap, "MaNhaCungCap", "TenNhaCungCap"))"></select>
+    </div>
+    <button type="submit">Lưu</button>
+</form>
