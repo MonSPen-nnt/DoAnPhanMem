@@ -1,4 +1,4 @@
-﻿@model DAPMver1.Models.ChiTietSanPhamViewModels
+@model DAPMver1.Models.ChiTietSanPhamViewModels
 <!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -133,10 +133,13 @@
                 <label for="quantity">Số lượng:</label>
                 <input type="number" id="quantity" name="quantity" class="form-control" value="1" min="1" />
 
-                <a href="~/GioHang/Index">
-                    <button class="add-to-cart">Thêm vào giỏ hàng</button>
+                <form asp-action="AddToCart" asp-controller="GioHang" method="post">
+                    <input type="hidden" name="maSanPham" value="@Model.SanPham.MaSanPham" />
+                    <input type="hidden" name="kichCo" id="kichCoHidden" />
+                    <input type="hidden" name="quantity" id="quantityHidden" value="1" />
+                    <button type="submit" class="add-to-cart">Thêm vào giỏ hàng</button>
+                </form>
 
-                </a>
 
                 <div class="product-description">
                     <h3>Mô tả sản phẩm</h3>
@@ -144,6 +147,31 @@
                     <p><strong>Chất liệu:</strong> @Model.SanPham.MaVatLieuNavigation.TenVatlieu</p>
                     <p><strong>Mô tả:</strong> @Model.SanPham.MoTa</p>
                 </div>
+                <div class="product-rating">
+                    <h3>Đánh giá sản phẩm</h3>
+                    <form asp-action="Create" asp-controller="DanhGia" method="post">
+                        <input type="hidden" name="maSanPham" value="@Model.SanPham.MaSanPham" />
+                        <label for="diemDanhGia">Chọn đánh giá (1-5):</label>
+                        <select id="diemDanhGia" name="diemDanhGia" required>
+                            <option value="">-- Chọn đánh giá --</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <button type="submit" class="add-to-cart">Gửi đánh giá</button>
+                    </form>
+                  
+                    </div>
+                   <h3>Đánh giá của người dùng</h3>
+                <h3>Điểm trung bình đánh giá</h3>
+                <p>Điểm trung bình: @Model.DiemTrungBinh.ToString("0.0") / 5</p>
+
+
+
+
+
             </div>
         </div>
     </div>
@@ -159,5 +187,20 @@
    
     document.getElementById("kichCo").addEventListener("change", function () {
         document.getElementById("kichCoHidden").value = this.value;
+    });
+</script>
+<script>
+    document.getElementById("kichCo").addEventListener("change", function () {
+        const selectedOption = this.options[this.selectedIndex];
+        const quantityField = document.getElementById("quantity");
+        const quantityAvailable = selectedOption.getAttribute("data-quantity");
+
+        // Cập nhật giá trị số lượng tối đa
+        quantityField.max = quantityAvailable;
+
+        // Đặt giá trị số lượng về 1 nếu lớn hơn số lượng có sẵn
+        if (parseInt(quantityField.value) > quantityAvailable) {
+            quantityField.value = 1;
+        }
     });
 </script>
