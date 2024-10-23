@@ -1,0 +1,50 @@
+﻿@model IEnumerable<DAPMver1.Data.SanPham>
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThuanTaiJWR</title>
+    <link rel="stylesheet" href="~/css/HomeStyle.css">
+</head>
+<body>
+   
+
+    <section class="products-section">
+        @if (Model != null && Model.Any())
+        {
+        <div class="container">
+            <h2>Sản phẩm</h2>
+
+                <div class="row">
+
+                    @foreach (var product in Model)
+                    {
+                        <div class="col-lg-2 col-md-3 col-sm-4 col-6 product-item mb-4 ml-3">
+                            <div class="card h-100 shadow-sm" style="margin: 10px;">
+                                <img src="@product.AnhSp" class="card-img-top" alt="@product.TenSanPham" />
+                                <div class="card-body">
+                                    <h3 class="card-title">@product.TenSanPham</h3>
+                                    <p class="price">
+                                      
+                                        Giá sản phẩm: @product.GiaTienMoi VNĐ
+                                        Loại sản phẩm: @product.MaDanhMucNavigation.TenDanhMuc
+                                    </p>
+                                    <a href="~/Product/ChiTietSP/@product.MaSanPham" class="btn btn-primary"> Xem Chi tiết</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+
+            </div>
+        }
+        else
+        {
+            <p>Không có sản phẩm nào để hiển thị.</p>
+        }
+    </section>
+
+    
+</body>
+</html>

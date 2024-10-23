@@ -1,0 +1,197 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\DAPM_23_10\\DoAnPhanMem-NguyenNhatTruong\\GoiYSanPham\\DAPMver1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|c:\\users\\admin\\desktop\\dapm_23_10\\doanphanmem-nguyennhattruong\\goiysanpham\\dapmver1\\dapmver1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|c:\\users\\admin\\desktop\\dapm_23_10\\doanphanmem-nguyennhattruong\\goiysanpham\\dapmver1\\dapmver1\\views\\shared\\_partialgoiysptheogiacaonhat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\views\\shared\\_partialgoiysptheogiacaonhat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|c:\\users\\admin\\desktop\\dapm_23_10\\doanphanmem-nguyennhattruong\\goiysanpham\\dapmver1\\dapmver1\\views\\product\\chitietsp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\views\\product\\chitietsp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|c:\\users\\admin\\desktop\\dapm_23_10\\doanphanmem-nguyennhattruong\\goiysanpham\\dapmver1\\dapmver1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|c:\\users\\admin\\desktop\\dapm_23_10\\doanphanmem-nguyennhattruong\\goiysanpham\\dapmver1\\dapmver1\\views\\shared\\_partialgoiysp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\views\\shared\\_partialgoiysp.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|c:\\users\\admin\\desktop\\dapm_23_10\\doanphanmem-nguyennhattruong\\goiysanpham\\dapmver1\\dapmver1\\data\\sanphamyeuthich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\data\\sanphamyeuthich.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|c:\\users\\admin\\desktop\\dapm_23_10\\doanphanmem-nguyennhattruong\\goiysanpham\\dapmver1\\dapmver1\\data\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\data\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|c:\\users\\admin\\desktop\\dapm_23_10\\doanphanmem-nguyennhattruong\\goiysanpham\\dapmver1\\dapmver1\\data\\chitietdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\data\\chitietdonhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|c:\\users\\admin\\desktop\\dapm_23_10\\doanphanmem-nguyennhattruong\\goiysanpham\\dapmver1\\dapmver1\\data\\chitietgiohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{784DED40-BDD5-455E-A3AE-7E05F6C75AB4}|DAPMver1\\DAPMver1.csproj|solutionrelative:dapmver1\\data\\chitietgiohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DAPM_23_10\\DoAnPhanMem-NguyenNhatTruong\\GoiYSanPham\\DAPMver1\\DAPMver1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DAPMver1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DAPM_23_10\\DoAnPhanMem-NguyenNhatTruong\\GoiYSanPham\\DAPMver1\\DAPMver1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DAPMver1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T16:21:13.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_PartialGoiYSPTheoGiaCaoNhat.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DAPM_23_10\\DoAnPhanMem-NguyenNhatTruong\\GoiYSanPham\\DAPMver1\\DAPMver1\\Views\\Shared\\_PartialGoiYSPTheoGiaCaoNhat.cshtml",
+              "RelativeDocumentMoniker": "DAPMver1\\Views\\Shared\\_PartialGoiYSPTheoGiaCaoNhat.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DAPM_23_10\\DoAnPhanMem-NguyenNhatTruong\\GoiYSanPham\\DAPMver1\\DAPMver1\\Views\\Shared\\_PartialGoiYSPTheoGiaCaoNhat.cshtml",
+              "RelativeToolTip": "DAPMver1\\Views\\Shared\\_PartialGoiYSPTheoGiaCaoNhat.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T16:19:45.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DAPM_23_10\\DoAnPhanMem-NguyenNhatTruong\\GoiYSanPham\\DAPMver1\\DAPMver1\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "DAPMver1\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DAPM_23_10\\DoAnPhanMem-NguyenNhatTruong\\GoiYSanPham\\DAPMver1\\DAPMver1\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "DAPMver1\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowC0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:13:50.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChiTietSP.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DAPM_23_10\\DoAnPhanMem-NguyenNhatTruong\\GoiYSanPham\\DAPMver1\\DAPMver1\\Views\\Product\\ChiTietSP.cshtml",
+              "RelativeDocumentMoniker": "DAPMver1\\Views\\Product\\ChiTietSP.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DAPM_23_10\\DoAnPhanMem-NguyenNhatTruong\\GoiYSanPham\\DAPMver1\\DAPMver1\\Views\\Product\\ChiTietSP.cshtml",
+              "RelativeToolTip": "DAPMver1\\Views\\Product\\ChiTietSP.cshtml",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAAAJkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T16:15:40.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_PartialGoiYSP.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DAPM_23_10\\DoAnPhanMem-NguyenNhatTruong\\GoiYSanPham\\DAPMver1\\DAPMver1\\Views\\Shared\\_PartialGoiYSP.cshtml",
+              "RelativeDocumentMoniker": "DAPMver1\\Views\\Shared\\_PartialGoiYSP.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DAPM_23_10\\DoAnPhanMem-NguyenNhatTruong\\GoiYSanPham\\DAPMver1\\DAPMver1\\Views\\Shared\\_PartialGoiYSP.cshtml",
+              "RelativeToolTip": "DAPMver1\\Views\\Shared\\_PartialGoiYSP.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T16:19:47.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SanPhamYeuThich.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DAPM_23_10\\DoAnPhanMem-NguyenNhatTruong\\GoiYSanPham\\DAPMver1\\DAPMver1\\Data\\SanPhamYeuThich.cs",
+              "RelativeDocumentMoniker": "DAPMver1\\Data\\SanPhamYeuThich.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DAPM_23_10\\DoAnPhanMem-NguyenNhatTruong\\GoiYSanPham\\DAPMver1\\DAPMver1\\Data\\SanPhamYeuThich.cs",
+              "RelativeToolTip": "DAPMver1\\Data\\SanPhamYeuThich.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:17:00.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SanPham.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DAPM_23_10\\DoAnPhanMem-NguyenNhatTruong\\GoiYSanPham\\DAPMver1\\DAPMver1\\Data\\SanPham.cs",
+              "RelativeDocumentMoniker": "DAPMver1\\Data\\SanPham.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DAPM_23_10\\DoAnPhanMem-NguyenNhatTruong\\GoiYSanPham\\DAPMver1\\DAPMver1\\Data\\SanPham.cs",
+              "RelativeToolTip": "DAPMver1\\Data\\SanPham.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:16:56.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ChiTietDonHang.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DAPM_23_10\\DoAnPhanMem-NguyenNhatTruong\\GoiYSanPham\\DAPMver1\\DAPMver1\\Data\\ChiTietDonHang.cs",
+              "RelativeDocumentMoniker": "DAPMver1\\Data\\ChiTietDonHang.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DAPM_23_10\\DoAnPhanMem-NguyenNhatTruong\\GoiYSanPham\\DAPMver1\\DAPMver1\\Data\\ChiTietDonHang.cs",
+              "RelativeToolTip": "DAPMver1\\Data\\ChiTietDonHang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:16:51.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ChiTietGioHang.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\DAPM_23_10\\DoAnPhanMem-NguyenNhatTruong\\GoiYSanPham\\DAPMver1\\DAPMver1\\Data\\ChiTietGioHang.cs",
+              "RelativeDocumentMoniker": "DAPMver1\\Data\\ChiTietGioHang.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\DAPM_23_10\\DoAnPhanMem-NguyenNhatTruong\\GoiYSanPham\\DAPMver1\\DAPMver1\\Data\\ChiTietGioHang.cs",
+              "RelativeToolTip": "DAPMver1\\Data\\ChiTietGioHang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T16:16:50.662Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
