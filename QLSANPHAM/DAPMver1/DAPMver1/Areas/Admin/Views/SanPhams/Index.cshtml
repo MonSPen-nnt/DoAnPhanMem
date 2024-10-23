@@ -1,4 +1,4 @@
-﻿@model IEnumerable<DAPMver1.Data.SanPham>
+@model IEnumerable<DAPMver1.Data.SanPham>
 
 @{
     ViewData["Title"] = "Index";
@@ -44,7 +44,14 @@
                 <td>@Html.DisplayFor(modelItem => item.GiaTienCu)</td>
                 <td>@Html.DisplayFor(modelItem => item.MoTa)</td>
                 <td>
-                    <img src="~/uploads/@item.AnhSp" alt="@item.TenSanPham" style="width: 100px; height: auto;" />
+                @if (!string.IsNullOrEmpty(item.AnhSp))
+                {
+                    <img src="@item.AnhSp" alt="Hình ảnh sản phẩm " style="width: 100px; height: auto;" />
+                }
+                else
+                {
+                    <span>Không có hình ảnh</span>
+                }
                 </td>
                 <td>@Html.DisplayFor(modelItem => item.NgayTao)</td>
                 <td>@Html.DisplayFor(modelItem => item.MaDanhMucNavigation.TenDanhMuc)</td>
