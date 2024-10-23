@@ -1,40 +1,56 @@
-﻿using DAPMver1.Data;
+using DAPMver1.Data;
 using DAPMver1.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
-using System.Diagnostics;
 
 namespace DAPMver1.Controllers
 {
-    public class HomeController : Controller
+    public class ProductController : Controller
     {
         private readonly DapmTrangv1Context db;
 
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger, DapmTrangv1Context _db)
+        public ProductController(DapmTrangv1Context context)
         {
-            db = _db;
-            _logger = logger;
+            this.db = context;
         }
 
         public IActionResult Index()
         {
-          
             var products = db.SanPhams.ToList(); // Lấy tất cả sản phẩm từ bảng SanPham
             return View(products); // Truyền danh sách sản phẩm sang view
         }
 
-        public IActionResult Privacy()
+        public IActionResult ChiTietSP(int id)
         {
-            return View();
-        }
+            var data = db.SanPhams.Include(s => s.KichCos).FirstOrDefault
+                (s => s.MaSanPham == id);
+            data = db.SanPhams
+                .Include(p => p.MaDanhMucNavigation)// Bao gồm thông tin danh mục nếu cần
+                 .Include(p => p.MaVatLieuNavigation)
+                    .Include(p => p.MaNhaCungCapNavigation)
+                .SingleOrDefault(p => p.MaSanPham == id);
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+         
+
+          
+            if (data == null)
+            {
+                TempData["Message"] = $"Không thấy sản phẩm có mã {id}";
+                return Redirect("/404");
+            }
+            var goiYSP = db.SanPhams
+                     .Where(sp => sp.MaDanhMuc == data.MaDanhMuc && sp.MaSanPham != data.MaSanPham)
+                     .OrderByDescending(sp => sp.NgayTao)
+                     .Take(5) // Lấy 5 sản phẩm mới nhất
+                     .ToList();
+            var viewModel = new ChiTietSanPhamViewModels
+            {
+                SanPham = data,
+                GoiYSanPhams = goiYSP
+            };
+            return View("ChiTietSP", viewModel); // Gọi rõ ràng View "ChiTietSanPham"
         }
+       
+
     }
 }
