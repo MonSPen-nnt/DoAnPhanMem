@@ -1,0 +1,789 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DAPMver1.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DAPMver1.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\Site.css",
+      "PackagePath": "staticwebassets\\Content\\Site.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\admin\\allproduct.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\allproduct.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\admin\\base.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\base.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\admin\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\admin\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\admin\\custom.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\custom.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\admin\\donhang.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\donhang.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\admin\\header.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\header.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\admin\\index.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\index.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\admin\\jquery.min.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\admin\\main.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\main.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\admin\\popper.js",
+      "PackagePath": "staticwebassets\\Content\\admin\\popper.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\admin\\style.css",
+      "PackagePath": "staticwebassets\\Content\\admin\\style.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-theme.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\Content\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\store.css",
+      "PackagePath": "staticwebassets\\Content\\store.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Content\\thanhtoan.css",
+      "PackagePath": "staticwebassets\\Content\\thanhtoan.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\AddCart.jpg",
+      "PackagePath": "staticwebassets\\Images\\AddCart.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\BongTaiKimCuong.png",
+      "PackagePath": "staticwebassets\\Images\\BongTaiKimCuong.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\BongTaiKimCuongVangY.png",
+      "PackagePath": "staticwebassets\\Images\\BongTaiKimCuongVangY.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\BongTaiVangTrangY.png",
+      "PackagePath": "staticwebassets\\Images\\BongTaiVangTrangY.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\DayChuyenVang18K.png",
+      "PackagePath": "staticwebassets\\Images\\DayChuyenVang18K.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\DayChuyenVangTrangY.png",
+      "PackagePath": "staticwebassets\\Images\\DayChuyenVangTrangY.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\EmailBW.jpg",
+      "PackagePath": "staticwebassets\\Images\\EmailBW.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\LacTayVangTrang.png",
+      "PackagePath": "staticwebassets\\Images\\LacTayVangTrang.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\LogoBoSuuTap.jpg",
+      "PackagePath": "staticwebassets\\Images\\LogoBoSuuTap.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\LogoJewelry.jpg",
+      "PackagePath": "staticwebassets\\Images\\LogoJewelry.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\UpButton.jpg",
+      "PackagePath": "staticwebassets\\Images\\UpButton.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\VongTayVang18k.png",
+      "PackagePath": "staticwebassets\\Images\\VongTayVang18k.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\anh-nen-4k (38).jpg",
+      "PackagePath": "staticwebassets\\Images\\anh-nen-4k (38).jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\anh-trai-dep-Viet-Nam.jpg",
+      "PackagePath": "staticwebassets\\Images\\anh-trai-dep-Viet-Nam.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\banner.jpg",
+      "PackagePath": "staticwebassets\\Images\\banner.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\banner2.jpg",
+      "PackagePath": "staticwebassets\\Images\\banner2.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\bong-tai-vang-24k.png",
+      "PackagePath": "staticwebassets\\Images\\bong-tai-vang-24k.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\brand1.jpg",
+      "PackagePath": "staticwebassets\\Images\\brand1.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\brand2.jpg",
+      "PackagePath": "staticwebassets\\Images\\brand2.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\brand3.jpg",
+      "PackagePath": "staticwebassets\\Images\\brand3.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\cobethang8.png",
+      "PackagePath": "staticwebassets\\Images\\cobethang8.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\cs2.jpg",
+      "PackagePath": "staticwebassets\\Images\\cs2.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\404.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\404.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\Phone.jpg",
+      "PackagePath": "staticwebassets\\Images\\icons\\Phone.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\advertisement.jpg",
+      "PackagePath": "staticwebassets\\Images\\icons\\advertisement.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\checkout.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\checkout.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\chevron-down.svg",
+      "PackagePath": "staticwebassets\\Images\\icons\\chevron-down.svg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\chevron-left.svg",
+      "PackagePath": "staticwebassets\\Images\\icons\\chevron-left.svg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\chevron-right.svg",
+      "PackagePath": "staticwebassets\\Images\\icons\\chevron-right.svg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\chevron-up.svg",
+      "PackagePath": "staticwebassets\\Images\\icons\\chevron-up.svg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\email.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\email.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\facebook.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\facebook.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\heart.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\heart.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\iconnha.jpg",
+      "PackagePath": "staticwebassets\\Images\\icons\\iconnha.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\iframe1.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\iframe1.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\iframe2.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\iframe2.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\instagram.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\instagram.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\jcb.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\jcb.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\left-arrow.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\left-arrow.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\login.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\login.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\logo.jpg",
+      "PackagePath": "staticwebassets\\Images\\icons\\logo.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\mail.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\mail.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\new.jpg",
+      "PackagePath": "staticwebassets\\Images\\icons\\new.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\rating.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\rating.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\right-arrow.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\right-arrow.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\searchicon.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\searchicon.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\send.svg",
+      "PackagePath": "staticwebassets\\Images\\icons\\send.svg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\share.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\share.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\shopping-cart.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\shopping-cart.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\shopping.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\shopping.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\socials.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\socials.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\telephone-call.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\telephone-call.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\user.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\user.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\visa.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\visa.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\icons\\youtube.png",
+      "PackagePath": "staticwebassets\\Images\\icons\\youtube.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\map.png",
+      "PackagePath": "staticwebassets\\Images\\map.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\nhan-bach-kim.png",
+      "PackagePath": "staticwebassets\\Images\\nhan-bach-kim.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\nhan-kim-cuong-vang-18k.png",
+      "PackagePath": "staticwebassets\\Images\\nhan-kim-cuong-vang-18k.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\nhan-vang-18k.png",
+      "PackagePath": "staticwebassets\\Images\\nhan-vang-18k.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\nhanvangtrang.png",
+      "PackagePath": "staticwebassets\\Images\\nhanvangtrang.png"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\z5427263651064_2eab27329fd230d12d90e907ac5e5a3b.jpg",
+      "PackagePath": "staticwebassets\\Images\\z5427263651064_2eab27329fd230d12d90e907ac5e5a3b.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\z5531484858025_0e60d6b5ec396337bf7710e1f6b05395.jpg",
+      "PackagePath": "staticwebassets\\Images\\z5531484858025_0e60d6b5ec396337bf7710e1f6b05395.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\Images\\z5531841662099_e3c7a3ca23ff92697b0dcb10f2f362dd.jpg",
+      "PackagePath": "staticwebassets\\Images\\z5531841662099_e3c7a3ca23ff92697b0dcb10f2f362dd.jpg"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\css\\AdminLayout.css",
+      "PackagePath": "staticwebassets\\css\\AdminLayout.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\css\\prettyPhoto.css",
+      "PackagePath": "staticwebassets\\css\\prettyPhoto.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\css\\price-range.css",
+      "PackagePath": "staticwebassets\\css\\price-range.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\js\\admin\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\admin\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\js\\admin\\contact.js",
+      "PackagePath": "staticwebassets\\js\\admin\\contact.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\js\\admin\\gmaps.js",
+      "PackagePath": "staticwebassets\\js\\admin\\gmaps.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\js\\admin\\html5shiv.js",
+      "PackagePath": "staticwebassets\\js\\admin\\html5shiv.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\js\\admin\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\admin\\jquery.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\js\\admin\\jquery.prettyPhoto.js",
+      "PackagePath": "staticwebassets\\js\\admin\\jquery.prettyPhoto.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\js\\admin\\jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets\\js\\admin\\jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\js\\admin\\main.js",
+      "PackagePath": "staticwebassets\\js\\admin\\main.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\js\\admin\\price-range.js",
+      "PackagePath": "staticwebassets\\js\\admin\\price-range.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\DOANPM_LT\\Dapm\\DAPMver1\\DAPMver1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DAPMver1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DAPMver1.props",
+      "PackagePath": "build\\DAPMver1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DAPMver1.props",
+      "PackagePath": "buildMultiTargeting\\DAPMver1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DAPMver1.props",
+      "PackagePath": "buildTransitive\\DAPMver1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

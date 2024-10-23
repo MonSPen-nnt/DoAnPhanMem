@@ -1,0 +1,18 @@
+﻿@@model IEnumerable< DAPMver1.Data.SanPham>
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<div class="recommended-items">
+    <h2>Sản phẩm mới</h2>
+    <div class="product-list">
+        @foreach (var product in Model)
+        {
+            <div class="product-item">
+                <img src="@product.AnhSP" alt="@product.TenSanPham" />
+                <h3>@product.TenSanPham</h3>
+                <p>Giá: @product.GiaTienMoi VNĐ</p>
+            </div>
+        }
+    </div>
+</div>
