@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -61,47 +61,43 @@ namespace DAPMver1.Areas.Admin.Controllers
             return View();
         }
 
-       
+
 
         // POST: Admin/SanPhams/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("MaSanPham,TenSanPham,GiaTienMoi,GiaTienCu,MoTa,AnhSp,MaVatLieu,MaDanhMuc,NgayTao,MaNhaCungCap")] 
-        SanPham sanPham, IFormFile file)
+        public async Task<IActionResult> Create(SanPham sanPham, IFormFile file)
         {
             if (ModelState.IsValid)
             {
-
+                // Kiểm tra xem file có được upload không
                 if (file != null && file.Length > 0)
                 {
+                    // Tạo tên file duy nhất để tránh xung đột
                     var fileName = Path.GetFileName(file.FileName);
-                    var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads", fileName);
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
 
-                    // Tạo thư mục nếu nó không tồn tại
-                    Directory.CreateDirectory(Path.GetDirectoryName(path));
-                    Console.WriteLine($"File path: {path}");
-
-                    using (var stream = new FileStream(path, FileMode.Create))
+                    // Lưu file vào thư mục wwwroot/images
+                    using (var stream = new FileStream(filePath, FileMode.Create))
                     {
-                        await file.CopyToAsync(stream); // Lưu tệp vào server
+                        await file.CopyToAsync(stream);
                     }
 
-                    // Gán đường dẫn của tệp cho thuộc tính AnhSp trong sanPham
-                    sanPham.AnhSp = fileName; // Hoặc bạn có thể lưu đường dẫn đầy đủ tùy thuộc vào cấu trúc của bạn
+                    // Gán đường dẫn của ảnh cho thuộc tính AnhSp của sản phẩm
+                    sanPham.AnhSp = "/images/" + fileName; // Đảm bảo đường dẫn hợp lệ
                 }
-                sanPham.NgayTao = DateOnly.FromDateTime(DateTime.Now);
-                _context.Add(sanPham);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+
+                sanPham.NgayTao = DateOnly.FromDateTime(DateTime.Now); // Gán ngày tạo
+                _context.Add(sanPham); // Thêm sản phẩm vào DbContext
+                await _context.SaveChangesAsync(); // Lưu thay đổi vào cơ sở dữ liệu
+                return RedirectToAction(nameof(Index)); // Chuyển hướng đến trang index
             }
-            ViewData["MaDanhMuc"] = new SelectList(_context.DanhMucs, "MaDanhMuc", "TenDanhMuc", sanPham.MaDanhMuc);
-            ViewData["MaNhaCungCap"] = new SelectList(_context.NhaCungCaps, "MaNhaCungCap", "TenNhaCungCap", sanPham.MaNhaCungCap);
-            ViewData["MaVatLieu"] = new SelectList(_context.VatLieus, "MaVatLieu", "TenVatlieu", sanPham.MaVatLieu);
+
+            // Nếu có lỗi, trả lại view với thông tin sản phẩm
             return View(sanPham);
         }
-
         // GET: Admin/SanPhams/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -138,24 +134,29 @@ namespace DAPMver1.Areas.Admin.Controllers
             {
                 try
                 {
+                    // Kiểm tra xem có tệp hình ảnh mới không
                     if (file != null && file.Length > 0)
                     {
+                        // Tạo tên file duy nhất để tránh xung đột
                         var fileName = Path.GetFileName(file.FileName);
-                        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads", fileName);
+                        var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", fileName);
 
-                        // Tạo thư mục nếu nó không tồn tại
-                        Directory.CreateDirectory(Path.GetDirectoryName(path));
-
-                        using (var stream = new FileStream(path, FileMode.Create))
+                        // Xóa hình ảnh cũ (nếu cần)
+                      
+                        // Lưu file vào thư mục wwwroot/images
+                        using (var stream = new FileStream(filePath, FileMode.Create))
                         {
-                            await file.CopyToAsync(stream); // Lưu tệp vào server
+                            await file.CopyToAsync(stream);
                         }
 
-                        // Gán đường dẫn của tệp cho thuộc tính AnhSp trong sanPham
-                        sanPham.AnhSp = fileName; // Hoặc bạn có thể lưu đường dẫn đầy đủ tùy thuộc vào cấu trúc của bạn
+                        // Gán đường dẫn của ảnh mới cho thuộc tính AnhSp
+                        sanPham.AnhSp = "/images/" + fileName; // Đảm bảo đường dẫn hợp lệ
                     }
+
+                    // Cập nhật thông tin sản phẩm
                     _context.Update(sanPham);
                     await _context.SaveChangesAsync();
+                
                 }
                 catch (DbUpdateConcurrencyException)
                 {
