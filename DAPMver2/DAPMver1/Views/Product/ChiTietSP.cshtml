@@ -1,0 +1,206 @@
+﻿@model DAPMver1.Models.ChiTietSanPhamViewModels
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Sản Phẩm</title>
+    <link rel="stylesheet" href="~/css/ChiTietSPStyle.css">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        padding: 20px;
+    }
+
+    .product-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-title {
+        text-align: center;
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    .product-name {
+        text-align: center;
+        font-size: 1.5em;
+        margin-bottom: 20px;
+    }
+
+    .product-details {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .product-image img {
+        max-width: 400px;
+        border-radius: 10px;
+    }
+
+    .product-info {
+        max-width: 600px;
+    }
+
+        .product-info p {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+    del {
+        color: red;
+    }
+
+    label {
+        display: block;
+        font-size: 1.2em;
+        margin-bottom: 5px;
+    }
+
+    select, input {
+        padding: 10px;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        width: 100%;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .add-to-cart {
+        background-color: #ff9800;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 1.2em;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .add-to-cart:hover {
+            background-color: #e68900;
+        }
+
+    .product-description {
+        margin-top: 20px;
+    }
+
+        .product-description h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .product-description p {
+            font-size: 1.2em;
+            margin-bottom: 5px;
+        }
+
+</style>
+<body>
+    <div class="product-container">
+        <h1 class="product-title">Chi Tiết Sản Phẩm</h1>
+        <h2 class="product-name">@Model.SanPham.TenSanPham</h2>
+        <div class="product-details">
+            <div class="product-image">
+                <img src="@Model.SanPham.AnhSp" alt="Product 2">
+            </div>
+            <div class="product-info">
+                <p><strong>Giá Mới:</strong> @Model.SanPham.GiaTienMoi VND</p>
+                <p><strong>Giá Cũ:</strong> <del>@Model.SanPham.GiaTienCu VND</del></p>
+
+                <label for="size">Chọn kích cỡ:</label>
+                <select id="kichCo" name="KichCo" class="form-control" onchange="updateQuantity()">
+                    <option value="">-- Chọn kích cỡ --</option>
+                    @foreach (var kichCo in Model.SanPham.KichCos)
+                    {
+                        <option value="@kichCo.MaKichCo" data-quantity="@kichCo.SoLuong">@kichCo.SoKichCo - Còn lại: @kichCo.SoLuong</option>
+                    }
+                </select>
+
+                <label for="quantity">Số lượng:</label>
+                <input type="number" id="quantity" name="quantity" class="form-control" value="1" min="1" />
+
+                <form asp-action="AddToCart" asp-controller="GioHang" method="post">
+                    <input type="hidden" name="maSanPham" value="@Model.SanPham.MaSanPham" />
+                    <input type="hidden" name="kichCo" id="kichCoHidden" />
+                    <input type="hidden" name="quantity" id="quantityHidden" value="1" />
+                    <button type="submit" class="add-to-cart">Thêm vào giỏ hàng</button>
+                </form>
+
+
+                <div class="product-description">
+                    <h3>Mô tả sản phẩm</h3>
+                    <p><strong>Thương hiệu:</strong> ThuanTaiPNJ</p>
+                    <p><strong>Chất liệu:</strong> @Model.SanPham.MaVatLieuNavigation.TenVatlieu</p>
+                    <p><strong>Mô tả:</strong> @Model.SanPham.MoTa</p>
+                </div>
+                <div class="product-rating">
+                    <h3>Đánh giá sản phẩm</h3>
+                    <form asp-action="Create" asp-controller="DanhGia" method="post">
+                        <input type="hidden" name="maSanPham" value="@Model.SanPham.MaSanPham" />
+                        <label for="diemDanhGia">Chọn đánh giá (1-5):</label>
+                        <select id="diemDanhGia" name="diemDanhGia" required>
+                            <option value="">-- Chọn đánh giá --</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <button type="submit" class="add-to-cart">Gửi đánh giá</button>
+                    </form>
+                  
+                    </div>
+                   <h3>Đánh giá của người dùng</h3>
+                <h3>Điểm trung bình đánh giá</h3>
+                <p>Điểm trung bình: @Model.DiemTrungBinh.ToString("0.0") / 5</p>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <div>
+        @await Html.PartialAsync("_PartialGoiYSP", Model.GoiYSanPhams)
+        @await Html.PartialAsync("_PartialGoiYSPTheoGiaCaoNhat", Model.GoiYSanPhamsTheoGiaCaoNhat)
+
+    </div>
+</body>
+</html>
+<script>
+    // Cập nhật giá trị kích cỡ khi người dùng chọn
+   
+    document.getElementById("kichCo").addEventListener("change", function () {
+        document.getElementById("kichCoHidden").value = this.value;
+    });
+</script>
+<script>
+    document.getElementById("kichCo").addEventListener("change", function () {
+        const selectedOption = this.options[this.selectedIndex];
+        const quantityField = document.getElementById("quantity");
+        const quantityAvailable = selectedOption.getAttribute("data-quantity");
+
+        // Cập nhật giá trị số lượng tối đa
+        quantityField.max = quantityAvailable;
+
+        // Đặt giá trị số lượng về 1 nếu lớn hơn số lượng có sẵn
+        if (parseInt(quantityField.value) > quantityAvailable) {
+            quantityField.value = 1;
+        }
+    });
+</script>
