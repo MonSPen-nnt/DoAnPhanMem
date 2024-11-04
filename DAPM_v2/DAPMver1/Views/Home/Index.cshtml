@@ -1,0 +1,164 @@
+﻿<style>
+
+    .slider-container {
+        position: relative;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .slider {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .slide {
+        min-width: 100%;
+    }
+
+        .slide img {
+            width: 100%;
+            height: auto;
+        }
+
+    .slider-controls .prev, .slider-controls .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+    }
+
+    .slider-controls .prev {
+        left: 10px;
+    }
+
+    .slider-controls .next {
+        right: 10px;
+    }
+
+    h2.title {
+        margin-top: 20px
+    }
+</style>
+
+<div class="slider-container">
+    <div class="slider">
+        <div class="slide">
+            <img src="~/images/banner.jpg" alt="Banner 1">
+        </div>
+        <div class="slide">
+            <img src="~/images/banner.jpg" alt="Banner 2">
+        </div>
+        <div class="slide">
+            <img src="~/images/banner.jpg" alt="Banner 3">
+        </div>
+    </div>
+    <div class="slider-controls">
+        <span class="prev" onclick="moveSlide(-1)">&#10094;</span>
+        <span class="next" onclick="moveSlide(1)">&#10095;</span>
+    </div>
+</div>
+
+<script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const totalSlides = slides.length; // Số lượng slide chính xác
+
+    function moveSlide(direction) {
+        currentSlide = (currentSlide + direction + totalSlides) % totalSlides; // Đảm bảo không vượt quá slide cuối
+        document.querySelector('.slider').style.transform = `translateX(-${currentSlide * 100}%)`;
+    }
+
+    // Tự động chuyển slide sau mỗi 4 giây
+    setInterval(() => {
+        moveSlide(1);
+    }, 4000);
+
+</script>
+<body>
+
+@* 
+    <section class="products-section">
+        <div class="container">
+            <h2>Sản phẩm</h2>
+            <div class="products-grid" style="display:flex;justify-content:center;">
+                <div class="product-item">
+                    <a href="~/SanPham/ChiTietSP">
+                        <img src="~/images/BongTaiKimCuongVangY.png" alt="Product 1">
+                        <h3>Vòng tay vàng</h3>
+                        <p class="price">5.000.000 VND</p>
+                        <button class="add-to-cart">Thêm vào giỏ</button>
+                    </a>
+                </div>
+                <div class="product-item">
+                    <a href="~/SanPham/ChiTietSP">
+                        <img src="~/images/BongTaiKimCuongVangY.png" alt="Product 2">
+                        <h3>Dây chuyền bạc</h3>
+                        <p class="price">2.500.000 VND</p>
+                    </a>
+                    <button class="add-to-cart">Thêm vào giỏ</button>
+                </div>
+                <div class="product-item">
+                    <a href="~/SanPham/ChiTietSP">
+                        <img src="~/images/BongTaiKimCuongVangY.png" alt="Product 3">
+                        <h3>Nhẫn kim cương</h3>
+                        <p class="price">15.000.000 VND</p>
+                    </a>
+                    <button class="add-to-cart">Thêm vào giỏ</button>
+                </div>
+                <div class="product-item">
+                    <a href="~/SanPham/ChiTietSP">
+                        <img src="~/images/BongTaiKimCuongVangY.png" alt="Product 4">
+                        <h3>Bông tai ngọc trai</h3>
+                        <p class="price">3.200.000 VND</p>
+                    </a>
+                    <button class="add-to-cart">Thêm vào giỏ</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+ *@
+
+</body>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Real-Time Chat with SignalR</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.13/signalr.min.js"></script>
+</head>
+<body>
+    <div>
+        <input type="text" id="username" placeholder="Enter your username" />
+        <input type="text" id="message" placeholder="Enter your message" />
+        <button id="sendButton">Send</button>
+    </div>
+    <div id="chatBox"></div>
+    <script>
+        var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
+
+        connection.on("ReceiveMessage", function (user, message) {
+            var encodedUser = $("<div />").text(user).html();
+            var encodedMsg = $("<div />").text(message).html();
+            $("#chatBox").append("<p><strong>" + encodedUser + "</strong>: " + encodedMsg + "</p>");
+        });
+
+        $("#sendButton").click(function () {
+            var user = $("#username").val();
+            var message = $("#message").val();
+            connection.invoke("SendMessage", user, message);
+            $("#message").val("").focus();
+        });
+
+        connection.start().then(function () {
+            console.log("Connected!");
+        }).catch(function (err) {
+            console.error(err.toString());
+        });
+    </script>
+</body>
+</html>
