@@ -62,41 +62,52 @@ namespace DAPMver1.Controllers
 
         public IActionResult ChiTietSP(int id)
         {
-            var data = db.SanPhams.Include(s => s.KichCos).FirstOrDefault
-                (s => s.MaSanPham == id);
-            data = db.SanPhams
-                .Include(p => p.MaDanhMucNavigation)// Bao gồm thông tin danh mục nếu cần
-                 .Include(p => p.MaVatLieuNavigation)
-                    .Include(p => p.MaNhaCungCapNavigation)
-                .SingleOrDefault(p => p.MaSanPham == id);
+            // Nạp sản phẩm và bao gồm các thông tin liên quan đến danh mục, vật liệu, nhà cung cấp và đánh giá
+            var data = db.SanPhams
+                .Include(s => s.KichCos)
+                .Include(s => s.MaDanhMucNavigation) // Bao gồm thông tin danh mục
+                .Include(s => s.MaVatLieuNavigation) // Bao gồm thông tin vật liệu
+                .Include(s => s.MaNhaCungCapNavigation) // Bao gồm thông tin nhà cung cấp
+                .Include(s => s.DanhGiaSanPhams) // Bao gồm danh sách đánh giá của sản phẩm
+                .FirstOrDefault(s => s.MaSanPham == id);
 
-         
-
-          
             if (data == null)
             {
                 TempData["Message"] = $"Không thấy sản phẩm có mã {id}";
                 return Redirect("/404");
             }
+
+            // Lấy danh sách sản phẩm gợi ý theo danh mục
             var goiYSP = db.SanPhams
-                     .Where(sp => sp.MaDanhMuc == data.MaDanhMuc && sp.MaSanPham != data.MaSanPham)
-                     .OrderByDescending(sp => sp.NgayTao)
-                     .Take(5) // Lấy 5 sản phẩm mới nhất
-                     .ToList();
+                .Where(sp => sp.MaDanhMuc == data.MaDanhMuc && sp.MaSanPham != data.MaSanPham)
+                .OrderByDescending(sp => sp.NgayTao)
+                .Take(5) // Lấy 5 sản phẩm mới nhất
+                .ToList();
+
+            // Lấy danh sách sản phẩm gợi ý theo giá cao nhất
             var goiYTheoGiaCaoNhat = db.SanPhams
-                        .Where(sp => sp.MaDanhMuc == data.MaDanhMuc && sp.MaSanPham != data.MaSanPham)
-                        .OrderByDescending(sp => sp.GiaTienMoi)
-                        .Take(5)
-                        .ToList();
+                .Where(sp => sp.MaDanhMuc == data.MaDanhMuc && sp.MaSanPham != data.MaSanPham)
+                .OrderByDescending(sp => sp.GiaTienMoi)
+                .Take(5)
+                .ToList();
+
+            // Tính điểm trung bình đánh giá
+            var diemTrungBinh = data.DanhGiaSanPhams.Any()
+                ? data.DanhGiaSanPhams.Average(dg => dg.DiemDanhGia)
+                : 0; // Trường hợp không có đánh giá thì trả về 0
+
             var viewModel = new ChiTietSanPhamViewModels
             {
                 SanPham = data,
                 GoiYSanPhams = goiYSP,
-                GoiYSanPhamsTheoGiaCaoNhat = goiYTheoGiaCaoNhat
+                GoiYSanPhamsTheoGiaCaoNhat = goiYTheoGiaCaoNhat,
+                DiemTrungBinh = diemTrungBinh // Truyền điểm trung bình vào ViewModel
             };
+
             return View("ChiTietSP", viewModel); // Gọi rõ ràng View "ChiTietSanPham"
         }
-       
+
+
 
     }
 }

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5y+eRv/GOk9fc1TWqrTzQ+oJmRfbmeabBvIKF9hHJ20=",
+  "Hash": "/ENivvQwmya0/4PmJhx6XuLLfF+3GAVEYhH0Dj46F88=",
   "Source": "DAPMver1",
   "BasePath": "_content/DAPMver1",
   "Mode": "Default",
@@ -1309,6 +1309,25 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\CNTT\\Nam3\\DAPM\\LT\\DAPMver1\\DAPMver1\\wwwroot\\images\\Academic-English-Course-Syllabus-980x551.png",
+      "SourceId": "DAPMver1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\CNTT\\Nam3\\DAPM\\LT\\DAPMver1\\DAPMver1\\wwwroot\\",
+      "BasePath": "_content/DAPMver1",
+      "RelativePath": "images/Academic-English-Course-Syllabus-980x551.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Academic-English-Course-Syllabus-980x551.png"
+    },
+    {
       "Identity": "C:\\CNTT\\Nam3\\DAPM\\LT\\DAPMver1\\DAPMver1\\wwwroot\\images\\anh-nen-4k (38).jpg",
       "SourceId": "DAPMver1",
       "SourceType": "Discovered",
@@ -1383,6 +1402,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\banner.jpg"
+    },
+    {
+      "Identity": "C:\\CNTT\\Nam3\\DAPM\\LT\\DAPMver1\\DAPMver1\\wwwroot\\images\\bong-tai-bac-dinh-da.png",
+      "SourceId": "DAPMver1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\CNTT\\Nam3\\DAPM\\LT\\DAPMver1\\DAPMver1\\wwwroot\\",
+      "BasePath": "_content/DAPMver1",
+      "RelativePath": "images/bong-tai-bac-dinh-da.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bong-tai-bac-dinh-da.png"
     },
     {
       "Identity": "C:\\CNTT\\Nam3\\DAPM\\LT\\DAPMver1\\DAPMver1\\wwwroot\\images\\BongTaiKimCuong.png",

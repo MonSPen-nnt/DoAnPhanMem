@@ -2,15 +2,16 @@
 @{
     Layout = null;
 }
-<h2>Đăng nhập</h2>
-
-
+@if (TempData["Message"] != null)
+{
+    <div class="alert alert-warning" style="margin:auto; width:10000000px;justify-content:center">@TempData["Message"]</div>
+}
 <div class="row justify-content-md-center" style="width:1200px;justify-content:center;margin:auto">
     <div class="col-md-5" style="width:70%;padding-left:100px;margin-left:100px;padding-bottom:50px;">
 
         <div class="card">
             <div class="card-header">
-                <div class="card-title">Trang đăng nhập</div>
+                <div class="card-title">Đăng nhập</div>
             </div>
             <div class="card-body">
                     <form asp-action="Login" method="post">
@@ -29,6 +30,9 @@
                         </div>
                     </form>
             </div>
+            <p>
+                @Html.ActionLink("Quên mật khẩu?", "ForgotPassword", "Account")
+            </p>
         </div>
     </div>
 </div>

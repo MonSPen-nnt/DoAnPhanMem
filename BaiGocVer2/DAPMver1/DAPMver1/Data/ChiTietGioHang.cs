@@ -7,7 +7,7 @@ public partial class ChiTietGioHang
 {
     public int MaGioHang { get; set; }
 
-    public int MaSanPham { get; set; }
+    public int MaKichCo { get; set; }
 
     public int SoLuong { get; set; }
 
@@ -15,5 +15,5 @@ public partial class ChiTietGioHang
 
     public virtual GioHang MaGioHangNavigation { get; set; } = null!;
 
-    public virtual SanPham MaSanPhamNavigation { get; set; } = null!;
+    public virtual KichCo MaKichCoNavigation { get; set; } = null!;
 }

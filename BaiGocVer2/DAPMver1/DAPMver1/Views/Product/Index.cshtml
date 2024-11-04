@@ -33,14 +33,14 @@
             <div class="product-image-wrapper">
                 <div class="single-products">
                     <div class="productinfo text-center">
-                        <a href="@Url.Action("Details", "Product", new { id = item.MaSanPham })">
+                        <a href="@Url.Action("ChiTietSP", "Product", new { id = item.MaSanPham })">
                             <img src="@item.AnhSp" class="card-img-top" alt="@item.TenSanPham" />
                             @*  <img src="~/Images/" alt="@item.TenSanPham" style="width: 250px; height: 250px;" /> *@
                             <h2>@item.GiaTienMoi VND</h2>
                             <p>@item.TenSanPham</p>
                         </a>
-                        <a href="#" class="btn btn-default add-to-cart">
-                            <img src="~/images/AddCart.jpg" style="width: 20px; padding: 2px; margin-right: 2px;">Thêm vào giỏ hàng
+                        <a href="@Url.Action("ChiTietSP", "Product", new { id = item.MaSanPham })" class="btn btn-default add-to-cart">
+                            <img src="~/images/AddCart.jpg" style="width: 20px; padding: 2px; margin-right: 2px;">Xem chi tiết đơn hàng
                         </a>
                     </div>
                 </div>

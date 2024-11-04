@@ -269,6 +269,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\CNTT\\Nam3\\DAPM\\LT\\DAPMver1\\DAPMver1\\wwwroot\\images\\Academic-English-Course-Syllabus-980x551.png",
+      "PackagePath": "staticwebassets\\images\\Academic-English-Course-Syllabus-980x551.png"
+    },
+    {
       "Id": "C:\\CNTT\\Nam3\\DAPM\\LT\\DAPMver1\\DAPMver1\\wwwroot\\images\\BongTaiKimCuong.png",
       "PackagePath": "staticwebassets\\images\\BongTaiKimCuong.png"
     },
@@ -331,6 +335,10 @@
     {
       "Id": "C:\\CNTT\\Nam3\\DAPM\\LT\\DAPMver1\\DAPMver1\\wwwroot\\images\\banner.jpg",
       "PackagePath": "staticwebassets\\images\\banner.jpg"
+    },
+    {
+      "Id": "C:\\CNTT\\Nam3\\DAPM\\LT\\DAPMver1\\DAPMver1\\wwwroot\\images\\bong-tai-bac-dinh-da.png",
+      "PackagePath": "staticwebassets\\images\\bong-tai-bac-dinh-da.png"
     },
     {
       "Id": "C:\\CNTT\\Nam3\\DAPM\\LT\\DAPMver1\\DAPMver1\\wwwroot\\images\\brand1.jpg",
