@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -100,8 +101,9 @@
 </head><!--/head-->
 @{
     var email = Context.Session.GetString("email");
-    var hoTen = Context.Session.GetString("hoTen");
+    var hoTen = Context.Session.GetString("TenNguoiDung");
 }
+@RenderSection("Scripts", required: false)
 <body>
 
 
@@ -202,10 +204,13 @@
                     <div class="col-sm-8">
                         <div class="shop-menu pull-right">
                             <ul class="nav navbar-nav">
+                                <li><a href="#"><img style="width:30px;padding:2px;margin-top:3px;" src="~/images/icons/heart.png" /> WishList</a></li>
+                                <li><a href="@Url.Action("Index","Cart")"><img style="width:30px;padding:2px;margin-top:3px;" src="~/images/icons/shopping-cart.png" /> Cart</a></li>
+
                                 @if (string.IsNullOrEmpty(email))
                                 {
                                     <li>
-                                        <a href="@Url.Action("Login", "User")">
+                                        <a href="@Url.Action("Login", "Account")">
                                             <img style="width:30px;padding:2px;margin-top:3px;" src="~/images/icons/login.png" />
                                             Login
                                         </a>
@@ -216,11 +221,13 @@
                                     <li>
                                         <a href="@Url.Action("UserDetails", "User")">
                                             <img style="width:30px;padding:2px;margin-top:3px;" src="~/images/icons/user.png" />
-                                            @email
+                                           @hoTen
                                         </a>
                                     </li>
+                                    <li><a href="@Url.Action("DonHang","Home")"><img style="width:30px;padding:2px;margin-top:3px;" src="~/images/icons/checkout.png" /> Đơn hàng của tôi</a></li>
+
                                     <li>
-                                        <a href="@Url.Action("DangXuat", "User")">Đăng Xuất</a>
+                                        <a href="@Url.Action("DangXuat", "Account")">Đăng Xuất</a>
                                     </li>
                                 }
                             </ul>

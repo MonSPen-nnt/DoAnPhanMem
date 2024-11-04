@@ -34,5 +34,53 @@ namespace DAPMver1.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        public IActionResult DonHang()
+        {
+
+            if (HttpContext.Session.GetString("UserID") == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+            else
+            {
+                int userID = int.Parse(HttpContext.Session.GetString("UserID"));
+                var donhang = from dh in db.DonHangs
+                              where dh.MaNguoiGuiNavigation.MaNguoiDung == userID
+                              select dh;
+
+                var donHangList = db.DonHangs.Where(dh => dh.MaNguoiGui == userID).OrderByDescending(dh => dh.NgayDatHang).ToList();
+
+
+
+
+                return View(donhang.ToList());
+            }
+
+        }
+
+
+        public IActionResult HuyDonHang(string maDH)
+        {
+            if (HttpContext.Session.GetString("UserID") == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+            else
+            {
+                int userID = int.Parse(HttpContext.Session.GetString("UserID"));
+                var dh = db.DonHangs
+                           .FirstOrDefault(donhang => donhang.MaDonHang == maDH && donhang.MaNguoiGui == userID);
+
+                if (dh != null)
+                {
+                    dh.NgayDatHang = DateOnly.FromDateTime(DateTime.Now);
+                    dh.TrangThai = "Đã hủy";
+                    db.SaveChanges();
+                }
+
+                return RedirectToAction("DonHang", "Home");
+            }
+        }
+
     }
 }

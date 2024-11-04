@@ -126,6 +126,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -134,16 +138,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/GioHang/ThanhToan.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvSGFuZ1xUaGFuaFRvYW4uY3NodG1s
+[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/GioHang/XacNhanThanhToan.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvSGFuZ1xYYWNOaGFuVGhhbmhUb2FuLmNzaHRtbA==
+[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/Account/VerifyRecoveryCode.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxWZXJpZnlSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/GioHang/XemGioHang.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvSGFuZ1xYZW1HaW9IYW5nLmNzaHRtbA==
+[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/Cart/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxDaGVja291dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/Cart/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/Cart/OrderSuccess.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxPcmRlclN1Y2Nlc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/Home/DonHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEb25IYW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/Home/Index.cshtml]
@@ -190,12 +206,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxDcmVhdGVVc2VyRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/User/EditUser.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0VXNlci5jc2h0bWw=
+[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/User/EditUserDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0VXNlckRldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/User/UserDetailscshtml.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyRGV0YWlsc2NzaHRtbC5jc2h0bWw=
+[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/User/UserDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/_ViewImports.cshtml]

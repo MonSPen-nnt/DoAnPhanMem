@@ -14,4 +14,7 @@ public partial class KichCo
     public int SoLuong { get; set; }
 
     public virtual SanPham? MaSanPhamNavigation { get; set; }
+
+    public virtual ICollection<ChiTietGioHang> ChiTietGioHangs { get; set; } = new List<ChiTietGioHang>();
+
 }

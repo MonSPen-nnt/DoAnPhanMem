@@ -131,7 +131,7 @@ public partial class DapmTrangv1Context : DbContext
 
         modelBuilder.Entity<ChiTietGioHang>(entity =>
         {
-            entity.HasKey(e => new { e.MaGioHang, e.MaSanPham }).HasName("PK__ChiTietG__3AAC69E10208262C");
+            entity.HasKey(e => new { e.MaGioHang, e.MaKichCo }).HasName("PK__ChiTietG__3AAC69E10208262C");
 
             entity.ToTable("ChiTietGioHang");
 
@@ -140,8 +140,8 @@ public partial class DapmTrangv1Context : DbContext
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__ChiTietGi__MaGio__06CD04F7");
 
-            entity.HasOne(d => d.MaSanPhamNavigation).WithMany(p => p.ChiTietGioHangs)
-                .HasForeignKey(d => d.MaSanPham)
+            entity.HasOne(d => d.MaKichCoNavigation).WithMany(p => p.ChiTietGioHangs)
+                .HasForeignKey(d => d.MaKichCo)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__ChiTietGi__MaSan__07C12930");
         });
