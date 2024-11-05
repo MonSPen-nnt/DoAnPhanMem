@@ -1,0 +1,45 @@
+﻿@model DAPMver1.Data.DonHang
+
+<style>
+    /* ... (các kiểu CSS bạn đã định nghĩa) ... */
+</style>
+
+<div class="container mt-5">
+    <h2>Chi tiết đơn hàng của @Model.MaDonHang</h2>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Sản phẩm</th>
+                <th>Số lượng</th>
+                <th>Đơn giá</th>
+                <th>Tổng tiền</th>
+                <th>Yêu cầu bảo hành</th> <!-- Thêm cột cho nút yêu cầu bảo hành -->
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ChiTietDonHangs)
+            {
+                <tr>
+                    <td>@item.MaSanPhamNavigation.TenSanPham</td> <!-- Tên sản phẩm -->
+                    <td>@item.Soluong</td> <!-- Số lượng -->
+                    <td>@item.DonGia.ToString("N0") VND</td> <!-- Đơn giá -->
+                    <td>@item.TongTien.ToString("N0") VND</td> <!-- Tổng tiền -->
+                    <td>
+                        @if (Model.TrangThai == "Đã nhận") // Kiểm tra trạng thái đơn hàng
+                        {
+                            <form asp-action="YeuCauBaoHanh" method="post">
+                                <input type="hidden" name="maSanPham" value="@item.MaSanPham" /> <!-- Sử dụng MaSanPham -->
+                                <button type="submit" class="btn1 btn-warning">Yêu cầu bảo hành</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <span class="text-muted">Không thể yêu cầu bảo hành</span> <!-- Thông báo không thể yêu cầu -->
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
