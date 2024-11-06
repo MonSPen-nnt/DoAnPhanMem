@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DAPMver1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05ea122c5b238d043d38511643e91e9430094ef6")]
 [assembly: System.Reflection.AssemblyProductAttribute("DAPMver1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DAPMver1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

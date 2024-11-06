@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R/pf461BfaT6kmoThHU9wIlPCGf1KgQrc4klhl3s/cZjUiVt/a6KrxgU7F+fcnrEPsx+vqlcJ2AzhCE9ExZC+Q==",
+  "dgSpecHash": "o2timf02xYOF9mQcfxEHtdqxcL/pBumFktEJqI6sqtLeM5XXcCQleDLMLE83Ymv3SW5KwQr6A6xlt/QVDOOejg==",
   "success": true,
-  "projectFilePath": "C:\\CNTT\\Nam3\\DAPM\\LT\\DAPMver1\\DAPMver1\\DAPMver1.csproj",
+  "projectFilePath": "C:\\Users\\NguyenNhatTruong\\Desktop\\DoAnPhanMem\\DAPMver1\\DAPMver1\\DAPMver1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NguyenNhatTruong\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\NguyenNhatTruong\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

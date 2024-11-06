@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CNTT\\Nam3\\DAPM\\LT\\DAPMver1\\DAPMver1\\DAPMver1.csproj": {}
+    "C:\\Users\\NguyenNhatTruong\\Desktop\\DoAnPhanMem\\DAPMver1\\DAPMver1\\DAPMver1.csproj": {}
   },
   "projects": {
-    "C:\\CNTT\\Nam3\\DAPM\\LT\\DAPMver1\\DAPMver1\\DAPMver1.csproj": {
+    "C:\\Users\\NguyenNhatTruong\\Desktop\\DoAnPhanMem\\DAPMver1\\DAPMver1\\DAPMver1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CNTT\\Nam3\\DAPM\\LT\\DAPMver1\\DAPMver1\\DAPMver1.csproj",
+        "projectUniqueName": "C:\\Users\\NguyenNhatTruong\\Desktop\\DoAnPhanMem\\DAPMver1\\DAPMver1\\DAPMver1.csproj",
         "projectName": "DAPMver1",
-        "projectPath": "C:\\CNTT\\Nam3\\DAPM\\LT\\DAPMver1\\DAPMver1\\DAPMver1.csproj",
+        "projectPath": "C:\\Users\\NguyenNhatTruong\\Desktop\\DoAnPhanMem\\DAPMver1\\DAPMver1\\DAPMver1.csproj",
         "packagesPath": "C:\\Users\\NguyenNhatTruong\\.nuget\\packages\\",
-        "outputPath": "C:\\CNTT\\Nam3\\DAPM\\LT\\DAPMver1\\DAPMver1\\obj\\",
+        "outputPath": "C:\\Users\\NguyenNhatTruong\\Desktop\\DoAnPhanMem\\DAPMver1\\DAPMver1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
