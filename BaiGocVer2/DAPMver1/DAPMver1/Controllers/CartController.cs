@@ -90,8 +90,12 @@ namespace DAPMver1.Controllers
 
             // Kiểm tra sản phẩm đã có trong chi tiết giỏ hàng chưa
             var cartItem = _context.ChiTietGioHangs
+<<<<<<< HEAD
                                    .FirstOrDefault(c => c.MaGioHang == cart.MaGioHang
                                    && c.MaKichCo == kichCo.MaKichCo);
+=======
+                                   .FirstOrDefault(c => c.MaGioHang == cart.MaGioHang && c.MaKichCo == kichCo.MaKichCo);
+>>>>>>> bcdbd4465becac8ac1932712dcb28487a1627c7b
             if (cartItem != null)
             {
                 // Tăng số lượng nếu sản phẩm đã có trong giỏ hàng
@@ -318,15 +322,23 @@ namespace DAPMver1.Controllers
             // Lưu đơn hàng vào cơ sở dữ liệu
             _context.DonHangs.Add(donHang);
             _context.SaveChanges();
+<<<<<<< HEAD
             CreatePayment(donHang);
             CreateInvoice(donHang, parseUserID);
         
+=======
+            var a= donHang.MaDonHang;
+>>>>>>> bcdbd4465becac8ac1932712dcb28487a1627c7b
             foreach (var item in cartItems)
             {
                 ChiTietDonHang chiTietDonHang = new ChiTietDonHang
                 {
                     MaDonHang = donHang.MaDonHang,
+<<<<<<< HEAD
                     MaKichCo = (int)item.MaKichCoNavigation.MaKichCo,
+=======
+                    MaSanPham = (int)item.MaKichCoNavigation.MaSanPham,
+>>>>>>> bcdbd4465becac8ac1932712dcb28487a1627c7b
                     Soluong = item.SoLuong,
                     DonGia = (int)item.GiaBan,
                     TongTien = (int)(item.SoLuong * item.GiaBan)
@@ -355,6 +367,7 @@ namespace DAPMver1.Controllers
             ViewBag.OrderDetails = order;
             return View();
         }
+<<<<<<< HEAD
         private void CreateInvoice(DonHang donHang, int userId)
         {
             // Tạo hóa đơn mới
@@ -388,6 +401,8 @@ namespace DAPMver1.Controllers
             _context.ThanhToans.Add(thanhToan);
             _context.SaveChanges();
         }
+=======
+>>>>>>> bcdbd4465becac8ac1932712dcb28487a1627c7b
 
     }
 }

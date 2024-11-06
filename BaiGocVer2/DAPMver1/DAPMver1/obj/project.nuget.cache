@@ -1,13 +1,20 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "HKT9ll+Rn/NaACgLdGbdj8i+/nRgbe+y1MwSkQJGDrx6U42xYtcnRdRPLqAN82lsfk+h5T85BMAfbak6TBUxLQ==",
+=======
+  "dgSpecHash": "R/pf461BfaT6kmoThHU9wIlPCGf1KgQrc4klhl3s/cZjUiVt/a6KrxgU7F+fcnrEPsx+vqlcJ2AzhCE9ExZC+Q==",
+>>>>>>> bcdbd4465becac8ac1932712dcb28487a1627c7b
   "success": true,
   "projectFilePath": "C:\\CNTT\\Nam3\\DAPM\\LT\\DAPMver1\\DAPMver1\\DAPMver1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\NguyenNhatTruong\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\NguyenNhatTruong\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\NguyenNhatTruong\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
+<<<<<<< HEAD
     "C:\\Users\\NguyenNhatTruong\\.nuget\\packages\\bouncycastle.cryptography\\2.4.0\\bouncycastle.cryptography.2.4.0.nupkg.sha512",
+=======
+>>>>>>> bcdbd4465becac8ac1932712dcb28487a1627c7b
     "C:\\Users\\NguyenNhatTruong\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\NguyenNhatTruong\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\NguyenNhatTruong\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",

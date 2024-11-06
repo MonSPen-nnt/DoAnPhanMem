@@ -17,9 +17,13 @@ C:\CNTT\Nam3\DAPM\LT\DAPMver1\DAPMver1\bin\Debug\net8.0\DAPMver1.pdb
 C:\CNTT\Nam3\DAPM\LT\DAPMver1\DAPMver1\bin\Debug\net8.0\Azure.Core.dll
 C:\CNTT\Nam3\DAPM\LT\DAPMver1\DAPMver1\bin\Debug\net8.0\Azure.Identity.dll
 C:\CNTT\Nam3\DAPM\LT\DAPMver1\DAPMver1\bin\Debug\net8.0\BCrypt.Net-Next.dll
+<<<<<<< HEAD
 C:\CNTT\Nam3\DAPM\LT\DAPMver1\DAPMver1\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
 C:\CNTT\Nam3\DAPM\LT\DAPMver1\DAPMver1\bin\Debug\net8.0\Humanizer.dll
 C:\CNTT\Nam3\DAPM\LT\DAPMver1\DAPMver1\bin\Debug\net8.0\itextsharp.dll
+=======
+C:\CNTT\Nam3\DAPM\LT\DAPMver1\DAPMver1\bin\Debug\net8.0\Humanizer.dll
+>>>>>>> bcdbd4465becac8ac1932712dcb28487a1627c7b
 C:\CNTT\Nam3\DAPM\LT\DAPMver1\DAPMver1\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
 C:\CNTT\Nam3\DAPM\LT\DAPMver1\DAPMver1\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
 C:\CNTT\Nam3\DAPM\LT\DAPMver1\DAPMver1\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll

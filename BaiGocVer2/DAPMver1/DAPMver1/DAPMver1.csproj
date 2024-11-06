@@ -8,7 +8,10 @@
 
   <ItemGroup>
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+<<<<<<< HEAD
     <PackageReference Include="iTextSharp" Version="5.5.13.4" />
+=======
+>>>>>>> bcdbd4465becac8ac1932712dcb28487a1627c7b
     <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.10" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.10" />
     <PackageReference Include="Microsoft.AspNetCore.Session" Version="2.2.0" />

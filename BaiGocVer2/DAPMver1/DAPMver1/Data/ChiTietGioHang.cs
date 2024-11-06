@@ -15,5 +15,9 @@ public partial class ChiTietGioHang
 
     public virtual GioHang MaGioHangNavigation { get; set; }
 
+<<<<<<< HEAD
     public virtual KichCo MaKichCoNavigation { get; set; }
+=======
+    public virtual KichCo MaKichCoNavigation { get; set; } = null!;
+>>>>>>> bcdbd4465becac8ac1932712dcb28487a1627c7b
 }

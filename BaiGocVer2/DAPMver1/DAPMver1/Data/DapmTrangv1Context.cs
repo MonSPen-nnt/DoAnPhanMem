@@ -133,7 +133,11 @@ public partial class DapmTrangv1Context : DbContext
 
         modelBuilder.Entity<ChiTietGioHang>(entity =>
         {
+<<<<<<< HEAD
             entity.HasKey(e => new { e.MaGioHang, e.MaKichCo }).HasName("PK__ChiTietG__98E7737BCCD5E427");
+=======
+            entity.HasKey(e => new { e.MaGioHang, e.MaKichCo }).HasName("PK__ChiTietG__3AAC69E10208262C");
+>>>>>>> bcdbd4465becac8ac1932712dcb28487a1627c7b
 
             entity.ToTable("ChiTietGioHang");
 

@@ -87,10 +87,13 @@
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
+<<<<<<< HEAD
             },
             "iTextSharp": {
               "target": "Package",
               "version": "[5.5.13.4, )"
+=======
+>>>>>>> bcdbd4465becac8ac1932712dcb28487a1627c7b
             }
           },
           "imports": [

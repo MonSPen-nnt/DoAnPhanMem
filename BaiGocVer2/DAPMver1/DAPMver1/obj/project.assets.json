@@ -59,6 +59,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "BouncyCastle.Cryptography/2.4.0": {
         "type": "package",
         "compile": {
@@ -72,6 +73,8 @@
           }
         }
       },
+=======
+>>>>>>> bcdbd4465becac8ac1932712dcb28487a1627c7b
       "Humanizer/2.14.1": {
         "type": "package",
         "dependencies": {
@@ -3231,6 +3234,7 @@
         "readme.md"
       ]
     },
+<<<<<<< HEAD
     "BouncyCastle.Cryptography/2.4.0": {
       "sha512": "SwXsAV3sMvAU/Nn31pbjhWurYSjJ+/giI/0n6tCrYoupEK34iIHCuk3STAd9fx8yudM85KkLSVdn951vTng/vQ==",
       "type": "package",
@@ -3251,6 +3255,8 @@
         "packageIcon.png"
       ]
     },
+=======
+>>>>>>> bcdbd4465becac8ac1932712dcb28487a1627c7b
     "Humanizer/2.14.1": {
       "sha512": "/FUTD3cEceAAmJSCPN9+J+VhGwmL/C12jvwlyM1DFXShEMsBzvLzLqSrJ2rb+k/W2znKw7JyflZgZpyE+tI7lA==",
       "type": "package",
@@ -8555,8 +8561,12 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.10",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.6",
+<<<<<<< HEAD
       "Newtonsoft.Json >= 13.0.3",
       "iTextSharp >= 5.5.13.4"
+=======
+      "Newtonsoft.Json >= 13.0.3"
+>>>>>>> bcdbd4465becac8ac1932712dcb28487a1627c7b
     ]
   },
   "packageFolders": {
@@ -8646,10 +8656,13 @@
           "Newtonsoft.Json": {
             "target": "Package",
             "version": "[13.0.3, )"
+<<<<<<< HEAD
           },
           "iTextSharp": {
             "target": "Package",
             "version": "[5.5.13.4, )"
+=======
+>>>>>>> bcdbd4465becac8ac1932712dcb28487a1627c7b
           }
         },
         "imports": [

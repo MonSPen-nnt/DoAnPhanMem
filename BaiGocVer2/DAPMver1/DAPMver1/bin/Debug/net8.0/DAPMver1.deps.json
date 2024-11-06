@@ -17,8 +17,12 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.10",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.6",
+<<<<<<< HEAD
           "Newtonsoft.Json": "13.0.3",
           "iTextSharp": "5.5.13.4"
+=======
+          "Newtonsoft.Json": "13.0.3"
+>>>>>>> bcdbd4465becac8ac1932712dcb28487a1627c7b
         },
         "runtime": {
           "DAPMver1.dll": {}
@@ -66,6 +70,7 @@
           }
         }
       },
+<<<<<<< HEAD
       "BouncyCastle.Cryptography/2.4.0": {
         "runtime": {
           "lib/net6.0/BouncyCastle.Cryptography.dll": {
@@ -74,6 +79,8 @@
           }
         }
       },
+=======
+>>>>>>> bcdbd4465becac8ac1932712dcb28487a1627c7b
       "Humanizer/2.14.1": {
         "dependencies": {
           "Humanizer.Core.af": "2.14.1",
@@ -2147,6 +2154,7 @@
       "path": "bcrypt.net-next/4.0.3",
       "hashPath": "bcrypt.net-next.4.0.3.nupkg.sha512"
     },
+<<<<<<< HEAD
     "BouncyCastle.Cryptography/2.4.0": {
       "type": "package",
       "serviceable": true,
@@ -2154,6 +2162,8 @@
       "path": "bouncycastle.cryptography/2.4.0",
       "hashPath": "bouncycastle.cryptography.2.4.0.nupkg.sha512"
     },
+=======
+>>>>>>> bcdbd4465becac8ac1932712dcb28487a1627c7b
     "Humanizer/2.14.1": {
       "type": "package",
       "serviceable": true,

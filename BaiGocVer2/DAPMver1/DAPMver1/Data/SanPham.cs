@@ -27,6 +27,11 @@ public partial class SanPham
 
     public virtual ICollection<BinhLuan> BinhLuans { get; set; } = new List<BinhLuan>();
 
+<<<<<<< HEAD
+=======
+    public virtual ICollection<ChiTietDonHang> ChiTietDonHangs { get; set; } = new List<ChiTietDonHang>();
+
+>>>>>>> bcdbd4465becac8ac1932712dcb28487a1627c7b
     public virtual ICollection<DanhGiaSanPham> DanhGiaSanPhams { get; set; } = new List<DanhGiaSanPham>();
 
     public virtual ICollection<KichCo> KichCos { get; set; } = new List<KichCo>();
