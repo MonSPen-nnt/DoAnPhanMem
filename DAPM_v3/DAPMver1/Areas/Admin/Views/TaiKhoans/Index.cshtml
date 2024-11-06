@@ -1,0 +1,49 @@
+﻿@model IEnumerable<DAPMver1.Data.TaiKhoan>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MatKhau)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VaiTro)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MatKhau)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.VaiTro)
+                </td>
+                <td>
+                    <a asp-action="Disable" asp-route-id="@item.MaTaiKhoan" class="btn btn-warning">Vô hiệu hóa tài khoản</a> |
+                    <a asp-action="Enable" asp-route-id="@item.MaTaiKhoan" class="btn btn-success">Mở khóa tài khoản</a>
+                </td>
+
+
+            </tr>
+        }
+    </tbody>
+</table>
