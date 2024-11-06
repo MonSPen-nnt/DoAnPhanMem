@@ -9,9 +9,9 @@ public partial class MauSac
 
     public int? MaSanPham { get; set; }
 
-    public string TenMau { get; set; } = null!;
+    public string TenMau { get; set; }
 
     public int SoLuong { get; set; }
 
-    public virtual SanPham? MaSanPhamNavigation { get; set; }
+    public virtual SanPham MaSanPhamNavigation { get; set; }
 }

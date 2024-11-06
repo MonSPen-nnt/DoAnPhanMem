@@ -61,13 +61,13 @@ public partial class DapmTrangv1Context : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=laptop-ut0ddbvf;Initial Catalog=DAPM_Trangv1;Integrated Security=True;Trust Server Certificate=True");
+        => optionsBuilder.UseSqlServer("Data Source=laptop-ut0ddbvf;Initial Catalog=DAPM_Trangv1;Integrated Security=True;Encrypt=True;Trust Server Certificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<BaoHanh>(entity =>
         {
-            entity.HasKey(e => e.MaBaoHanh).HasName("PK__BaoHanh__A8DF52E5C44F50AF");
+            entity.HasKey(e => e.MaBaoHanh).HasName("PK__BaoHanh__A8DF52E5B4544198");
 
             entity.ToTable("BaoHanh");
 
@@ -76,79 +76,81 @@ public partial class DapmTrangv1Context : DbContext
                 .HasColumnType("datetime");
             entity.Property(e => e.NgayKetThuc).HasColumnType("datetime");
 
+            entity.HasOne(d => d.MaKichCoNavigation).WithMany(p => p.BaoHanhs)
+                .HasForeignKey(d => d.MaKichCo)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__BaoHanh__MaKichC__6EF57B66");
+
             entity.HasOne(d => d.MaNguoiDungNavigation).WithMany(p => p.BaoHanhs)
                 .HasForeignKey(d => d.MaNguoiDung)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__BaoHanh__MaNguoi__6B24EA82");
-
-            entity.HasOne(d => d.MaSanPhamNavigation).WithMany(p => p.BaoHanhs)
-                .HasForeignKey(d => d.MaSanPham)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__BaoHanh__MaSanPh__6A30C649");
+                .HasConstraintName("FK__BaoHanh__MaNguoi__6FE99F9F");
         });
 
         modelBuilder.Entity<BinhLuan>(entity =>
         {
-            entity.HasKey(e => e.MaBinhLuan).HasName("PK__BinhLuan__87CB66A0813B1E7D");
+            entity.HasKey(e => e.MaBinhLuan).HasName("PK__BinhLuan__87CB66A0B9A34BAA");
 
             entity.ToTable("BinhLuan");
 
             entity.Property(e => e.NgayBinhLuan)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime");
+            entity.Property(e => e.NoiDung).IsRequired();
 
             entity.HasOne(d => d.MaNguoiDungNavigation).WithMany(p => p.BinhLuans)
                 .HasForeignKey(d => d.MaNguoiDung)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__BinhLuan__MaNguo__7E37BEF6");
+                .HasConstraintName("FK__BinhLuan__MaNguo__02FC7413");
 
             entity.HasOne(d => d.MaSanPhamNavigation).WithMany(p => p.BinhLuans)
                 .HasForeignKey(d => d.MaSanPham)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__BinhLuan__MaSanP__7D439ABD");
+                .HasConstraintName("FK__BinhLuan__MaSanP__02084FDA");
         });
 
         modelBuilder.Entity<ChiTietDonHang>(entity =>
         {
-            entity.HasKey(e => e.MaChiTietDonHang).HasName("PK__ChiTietD__4B0B45DD24399AC4");
+            entity.HasKey(e => e.MaChiTietDonHang).HasName("PK__ChiTietD__4B0B45DD3472B319");
 
             entity.ToTable("ChiTietDonHang");
 
             entity.Property(e => e.MaDonHang)
+                .IsRequired()
                 .HasMaxLength(20)
                 .IsUnicode(false);
 
             entity.HasOne(d => d.MaDonHangNavigation).WithMany(p => p.ChiTietDonHangs)
                 .HasForeignKey(d => d.MaDonHang)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ChiTietDo__MaDon__787EE5A0");
+                .HasConstraintName("FK__ChiTietDo__MaDon__7D439ABD");
 
-            entity.HasOne(d => d.MaSanPhamNavigation).WithMany(p => p.ChiTietDonHangs)
-                .HasForeignKey(d => d.MaSanPham)
+            entity.HasOne(d => d.MaKichCoNavigation).WithMany(p => p.ChiTietDonHangs)
+                .HasForeignKey(d => d.MaKichCo)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ChiTietDo__MaSan__797309D9");
+                .HasConstraintName("FK__ChiTietDo__MaKic__7E37BEF6");
         });
 
         modelBuilder.Entity<ChiTietGioHang>(entity =>
         {
-            entity.HasKey(e => new { e.MaGioHang, e.MaKichCo }).HasName("PK__ChiTietG__3AAC69E10208262C");
+            entity.HasKey(e => new { e.MaGioHang, e.MaKichCo }).HasName("PK__ChiTietG__98E7737BCCD5E427");
 
             entity.ToTable("ChiTietGioHang");
 
             entity.HasOne(d => d.MaGioHangNavigation).WithMany(p => p.ChiTietGioHangs)
                 .HasForeignKey(d => d.MaGioHang)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ChiTietGi__MaGio__06CD04F7");
+                .HasConstraintName("FK__ChiTietGi__MaGio__0B91BA14");
 
             entity.HasOne(d => d.MaKichCoNavigation).WithMany(p => p.ChiTietGioHangs)
                 .HasForeignKey(d => d.MaKichCo)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__ChiTietGi__MaSan__07C12930");
+                .HasConstraintName("FK__ChiTietGi__MaKic__0C85DE4D");
         });
 
         modelBuilder.Entity<ChucVu>(entity =>
         {
-            entity.HasKey(e => e.MaChucVu).HasName("PK__ChucVu__D463953361A32E6F");
+            entity.HasKey(e => e.MaChucVu).HasName("PK__ChucVu__D463953389DF455D");
 
             entity.ToTable("ChucVu");
 
@@ -157,7 +159,7 @@ public partial class DapmTrangv1Context : DbContext
 
         modelBuilder.Entity<DanhGiaSanPham>(entity =>
         {
-            entity.HasKey(e => e.MaDanhGia).HasName("PK__DanhGiaS__AA9515BFB4F4487C");
+            entity.HasKey(e => e.MaDanhGia).HasName("PK__DanhGiaS__AA9515BF78B0A210");
 
             entity.ToTable("DanhGiaSanPham");
 
@@ -178,48 +180,58 @@ public partial class DapmTrangv1Context : DbContext
 
         modelBuilder.Entity<DanhMuc>(entity =>
         {
-            entity.HasKey(e => e.MaDanhMuc).HasName("PK__DanhMuc__B37508870CF1C467");
+            entity.HasKey(e => e.MaDanhMuc).HasName("PK__DanhMuc__B37508877A672CC7");
 
             entity.ToTable("DanhMuc");
 
-            entity.Property(e => e.TenDanhMuc).HasMaxLength(50);
+            entity.Property(e => e.TenDanhMuc)
+                .IsRequired()
+                .HasMaxLength(50);
         });
 
         modelBuilder.Entity<DonHang>(entity =>
         {
-            entity.HasKey(e => e.MaDonHang).HasName("PK__DonHang__129584ADAD9DA7F4");
+            entity.HasKey(e => e.MaDonHang).HasName("PK__DonHang__129584AD6DF86E1B");
 
             entity.ToTable("DonHang");
 
             entity.Property(e => e.MaDonHang)
                 .HasMaxLength(20)
                 .IsUnicode(false);
-            entity.Property(e => e.DiaChiNguoiNhan).HasMaxLength(100);
+            entity.Property(e => e.DiaChiNguoiNhan)
+                .IsRequired()
+                .HasMaxLength(100);
             entity.Property(e => e.HinhThucNhanHang)
+                .IsRequired()
                 .HasMaxLength(50)
                 .HasDefaultValue("Giao Hang");
             entity.Property(e => e.SdtnguoiNhan)
+                .IsRequired()
                 .HasMaxLength(11)
                 .IsUnicode(false)
                 .IsFixedLength()
                 .HasColumnName("SDTNguoiNhan");
-            entity.Property(e => e.TenNguoiNhan).HasMaxLength(30);
+            entity.Property(e => e.TenNguoiNhan)
+                .IsRequired()
+                .HasMaxLength(30);
             entity.Property(e => e.TongSl).HasColumnName("TongSL");
-            entity.Property(e => e.TrangThai).HasMaxLength(50);
+            entity.Property(e => e.TrangThai)
+                .IsRequired()
+                .HasMaxLength(50);
 
             entity.HasOne(d => d.MaNguoiGuiNavigation).WithMany(p => p.DonHangs)
                 .HasForeignKey(d => d.MaNguoiGui)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__DonHang__MaNguoi__72C60C4A");
+                .HasConstraintName("FK__DonHang__MaNguoi__778AC167");
 
             entity.HasOne(d => d.MaVoucherNavigation).WithMany(p => p.DonHangs)
                 .HasForeignKey(d => d.MaVoucher)
-                .HasConstraintName("FK__DonHang__MaVouch__71D1E811");
+                .HasConstraintName("FK__DonHang__MaVouch__76969D2E");
         });
 
         modelBuilder.Entity<GioHang>(entity =>
         {
-            entity.HasKey(e => e.MaGioHang).HasName("PK__GioHang__F5001DA3B02C3BE6");
+            entity.HasKey(e => e.MaGioHang).HasName("PK__GioHang__F5001DA3304F6D08");
 
             entity.ToTable("GioHang");
 
@@ -234,12 +246,12 @@ public partial class DapmTrangv1Context : DbContext
             entity.HasOne(d => d.MaNguoiDungNavigation).WithMany(p => p.GioHangs)
                 .HasForeignKey(d => d.MaNguoiDung)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__GioHang__MaNguoi__03F0984C");
+                .HasConstraintName("FK__GioHang__MaNguoi__08B54D69");
         });
 
         modelBuilder.Entity<HoaDon>(entity =>
         {
-            entity.HasKey(e => e.MaHoaDon).HasName("PK__HoaDon__835ED13B25F77165");
+            entity.HasKey(e => e.MaHoaDon).HasName("PK__HoaDon__835ED13B0521094A");
 
             entity.ToTable("HoaDon");
 
@@ -247,6 +259,7 @@ public partial class DapmTrangv1Context : DbContext
                 .HasMaxLength(20)
                 .IsUnicode(false);
             entity.Property(e => e.MaDonHang)
+                .IsRequired()
                 .HasMaxLength(20)
                 .IsUnicode(false);
             entity.Property(e => e.NgayXuatHoaDon)
@@ -271,7 +284,7 @@ public partial class DapmTrangv1Context : DbContext
 
         modelBuilder.Entity<KichCo>(entity =>
         {
-            entity.HasKey(e => e.MaKichCo).HasName("PK__KichCo__DE76ED87C485445A");
+            entity.HasKey(e => e.MaKichCo).HasName("PK__KichCo__DE76ED87C56C1177");
 
             entity.ToTable("KichCo");
 
@@ -279,12 +292,12 @@ public partial class DapmTrangv1Context : DbContext
 
             entity.HasOne(d => d.MaSanPhamNavigation).WithMany(p => p.KichCos)
                 .HasForeignKey(d => d.MaSanPham)
-                .HasConstraintName("FK__KichCo__MaSanPha__0F624AF8");
+                .HasConstraintName("FK__KichCo__MaSanPha__693CA210");
         });
 
         modelBuilder.Entity<LichSuGiaSanPham>(entity =>
         {
-            entity.HasKey(e => e.MaLichSu).HasName("PK__LichSuGi__C443222A5E6392B6");
+            entity.HasKey(e => e.MaLichSu).HasName("PK__LichSuGi__C443222A287AD966");
 
             entity.ToTable("LichSuGiaSanPham");
 
@@ -300,7 +313,7 @@ public partial class DapmTrangv1Context : DbContext
 
         modelBuilder.Entity<LichSuGiamGiaSanPham>(entity =>
         {
-            entity.HasKey(e => e.MaLichSuGiamGia).HasName("PK__LichSuGi__35BD950F25D52449");
+            entity.HasKey(e => e.MaLichSuGiamGia).HasName("PK__LichSuGi__35BD950F43ADF4F1");
 
             entity.ToTable("LichSuGiamGiaSanPham");
 
@@ -316,31 +329,39 @@ public partial class DapmTrangv1Context : DbContext
 
         modelBuilder.Entity<MauSac>(entity =>
         {
-            entity.HasKey(e => e.MaMauSac).HasName("PK__MauSac__B9A9116268478F7D");
+            entity.HasKey(e => e.MaMauSac).HasName("PK__MauSac__B9A911624430998A");
 
             entity.ToTable("MauSac");
 
             entity.Property(e => e.SoLuong).HasDefaultValue(1);
-            entity.Property(e => e.TenMau).HasMaxLength(50);
+            entity.Property(e => e.TenMau)
+                .IsRequired()
+                .HasMaxLength(50);
 
             entity.HasOne(d => d.MaSanPhamNavigation).WithMany(p => p.MauSacs)
                 .HasForeignKey(d => d.MaSanPham)
-                .HasConstraintName("FK__MauSac__MaSanPha__0B91BA14");
+                .HasConstraintName("FK__MauSac__MaSanPha__10566F31");
         });
 
         modelBuilder.Entity<NguoiDung>(entity =>
         {
-            entity.HasKey(e => e.MaNguoiDung).HasName("PK__NguoiDun__C539D762B8B9461C");
+            entity.HasKey(e => e.MaNguoiDung).HasName("PK__NguoiDun__C539D762EF9A8656");
 
             entity.ToTable("NguoiDung");
 
-            entity.Property(e => e.AnhDaiDien).IsUnicode(false);
+            entity.Property(e => e.AnhDaiDien)
+                .IsRequired()
+                .IsUnicode(false);
+            entity.Property(e => e.DiaChi).IsRequired();
             entity.Property(e => e.Sdt)
+                .IsRequired()
                 .HasMaxLength(11)
                 .IsUnicode(false)
                 .IsFixedLength()
                 .HasColumnName("SDT");
-            entity.Property(e => e.TenNguoiDung).HasMaxLength(50);
+            entity.Property(e => e.TenNguoiDung)
+                .IsRequired()
+                .HasMaxLength(50);
 
             entity.HasOne(d => d.MaChucVuNavigation).WithMany(p => p.NguoiDungs)
                 .HasForeignKey(d => d.MaChucVu)
@@ -355,7 +376,7 @@ public partial class DapmTrangv1Context : DbContext
 
         modelBuilder.Entity<NhaCungCap>(entity =>
         {
-            entity.HasKey(e => e.MaNhaCungCap).HasName("PK__NhaCungC__53DA92051A6A2A19");
+            entity.HasKey(e => e.MaNhaCungCap).HasName("PK__NhaCungC__53DA9205AEE6CCC7");
 
             entity.ToTable("NhaCungCap");
 
@@ -364,24 +385,31 @@ public partial class DapmTrangv1Context : DbContext
                 .HasMaxLength(50)
                 .IsUnicode(false);
             entity.Property(e => e.Sdt)
+                .IsRequired()
                 .HasMaxLength(11)
                 .IsUnicode(false)
                 .IsFixedLength()
                 .HasColumnName("SDT");
-            entity.Property(e => e.TenNhaCungCap).HasMaxLength(100);
+            entity.Property(e => e.TenNhaCungCap)
+                .IsRequired()
+                .HasMaxLength(100);
         });
 
         modelBuilder.Entity<SanPham>(entity =>
         {
-            entity.HasKey(e => e.MaSanPham).HasName("PK__SanPham__FAC7442D54B2BEED");
+            entity.HasKey(e => e.MaSanPham).HasName("PK__SanPham__FAC7442D21DB4929");
 
             entity.ToTable("SanPham");
 
             entity.Property(e => e.AnhSp)
+                .IsRequired()
                 .IsUnicode(false)
                 .HasColumnName("AnhSP");
+            entity.Property(e => e.MoTa).IsRequired();
             entity.Property(e => e.NgayTao).HasDefaultValueSql("(getdate())");
-            entity.Property(e => e.TenSanPham).HasMaxLength(50);
+            entity.Property(e => e.TenSanPham)
+                .IsRequired()
+                .HasMaxLength(50);
 
             entity.HasOne(d => d.MaDanhMucNavigation).WithMany(p => p.SanPhams)
                 .HasForeignKey(d => d.MaDanhMuc)
@@ -401,7 +429,7 @@ public partial class DapmTrangv1Context : DbContext
 
         modelBuilder.Entity<SanPhamYeuThich>(entity =>
         {
-            entity.HasKey(e => e.MaYeuThich).HasName("PK__SanPhamY__B9007E4CC6D8165B");
+            entity.HasKey(e => e.MaYeuThich).HasName("PK__SanPhamY__B9007E4C3AB77792");
 
             entity.ToTable("SanPhamYeuThich");
 
@@ -422,31 +450,36 @@ public partial class DapmTrangv1Context : DbContext
 
         modelBuilder.Entity<TaiKhoan>(entity =>
         {
-            entity.HasKey(e => e.MaTaiKhoan).HasName("PK__TaiKhoan__AD7C652996AB820D");
+            entity.HasKey(e => e.MaTaiKhoan).HasName("PK__TaiKhoan__AD7C6529597D522B");
 
             entity.ToTable("TaiKhoan");
 
             entity.Property(e => e.Email)
+                .IsRequired()
                 .HasMaxLength(50)
                 .IsUnicode(false);
             entity.Property(e => e.MatKhau)
+                .IsRequired()
                 .HasMaxLength(15)
                 .IsUnicode(false);
         });
 
         modelBuilder.Entity<ThanhToan>(entity =>
         {
-            entity.HasKey(e => e.MaThanhToan).HasName("PK__ThanhToa__D4B258449916AFD5");
+            entity.HasKey(e => e.MaThanhToan).HasName("PK__ThanhToa__D4B258446B359D25");
 
             entity.ToTable("ThanhToan");
 
             entity.Property(e => e.MaDonHang)
+                .IsRequired()
                 .HasMaxLength(20)
                 .IsUnicode(false);
             entity.Property(e => e.NgayThanhToan)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime");
-            entity.Property(e => e.PhuongThucThanhToan).HasMaxLength(50);
+            entity.Property(e => e.PhuongThucThanhToan)
+                .IsRequired()
+                .HasMaxLength(50);
 
             entity.HasOne(d => d.MaDonHangNavigation).WithMany(p => p.ThanhToans)
                 .HasForeignKey(d => d.MaDonHang)
@@ -456,7 +489,7 @@ public partial class DapmTrangv1Context : DbContext
 
         modelBuilder.Entity<VatLieu>(entity =>
         {
-            entity.HasKey(e => e.MaVatLieu).HasName("PK__VatLieu__0A1700AC440A7BE9");
+            entity.HasKey(e => e.MaVatLieu).HasName("PK__VatLieu__0A1700AC7DB2AFBE");
 
             entity.ToTable("VatLieu");
 
@@ -464,12 +497,14 @@ public partial class DapmTrangv1Context : DbContext
             entity.Property(e => e.NgayTao)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime");
-            entity.Property(e => e.TenVatlieu).HasMaxLength(100);
+            entity.Property(e => e.TenVatlieu)
+                .IsRequired()
+                .HasMaxLength(100);
         });
 
         modelBuilder.Entity<Voucher>(entity =>
         {
-            entity.HasKey(e => e.MaVoucher).HasName("PK__VOUCHER__0AAC5B1153ACBD08");
+            entity.HasKey(e => e.MaVoucher).HasName("PK__VOUCHER__0AAC5B110CA8A538");
 
             entity.ToTable("VOUCHER");
 
@@ -478,6 +513,7 @@ public partial class DapmTrangv1Context : DbContext
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime");
             entity.Property(e => e.SoLuong).HasDefaultValue(1);
+            entity.Property(e => e.TenVoucher).IsRequired();
             entity.Property(e => e.ThoiGianBatDau)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime");

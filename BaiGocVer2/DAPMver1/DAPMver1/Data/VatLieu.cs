@@ -7,9 +7,9 @@ public partial class VatLieu
 {
     public int MaVatLieu { get; set; }
 
-    public string TenVatlieu { get; set; } = null!;
+    public string TenVatlieu { get; set; }
 
-    public string? MoTa { get; set; }
+    public string MoTa { get; set; }
 
     public DateTime NgayTao { get; set; }
 

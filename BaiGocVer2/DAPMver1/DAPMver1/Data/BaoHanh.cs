@@ -7,7 +7,7 @@ public partial class BaoHanh
 {
     public int MaBaoHanh { get; set; }
 
-    public int MaSanPham { get; set; }
+    public int MaKichCo { get; set; }
 
     public int MaNguoiDung { get; set; }
 
@@ -15,11 +15,11 @@ public partial class BaoHanh
 
     public DateTime NgayKetThuc { get; set; }
 
-    public string? MoTa { get; set; }
+    public string MoTa { get; set; }
 
     public bool TrangThai { get; set; }
 
-    public virtual NguoiDung MaNguoiDungNavigation { get; set; } = null!;
+    public virtual KichCo MaKichCoNavigation { get; set; }
 
-    public virtual SanPham MaSanPhamNavigation { get; set; } = null!;
+    public virtual NguoiDung MaNguoiDungNavigation { get; set; }
 }

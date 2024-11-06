@@ -90,7 +90,8 @@ namespace DAPMver1.Controllers
 
             // Kiểm tra sản phẩm đã có trong chi tiết giỏ hàng chưa
             var cartItem = _context.ChiTietGioHangs
-                                   .FirstOrDefault(c => c.MaGioHang == cart.MaGioHang && c.MaKichCo == kichCo.MaKichCo);
+                                   .FirstOrDefault(c => c.MaGioHang == cart.MaGioHang
+                                   && c.MaKichCo == kichCo.MaKichCo);
             if (cartItem != null)
             {
                 // Tăng số lượng nếu sản phẩm đã có trong giỏ hàng
@@ -317,13 +318,15 @@ namespace DAPMver1.Controllers
             // Lưu đơn hàng vào cơ sở dữ liệu
             _context.DonHangs.Add(donHang);
             _context.SaveChanges();
-            var a= donHang.MaDonHang;
+            CreatePayment(donHang);
+            CreateInvoice(donHang, parseUserID);
+        
             foreach (var item in cartItems)
             {
                 ChiTietDonHang chiTietDonHang = new ChiTietDonHang
                 {
                     MaDonHang = donHang.MaDonHang,
-                    MaSanPham = (int)item.MaKichCoNavigation.MaSanPham,
+                    MaKichCo = (int)item.MaKichCoNavigation.MaKichCo,
                     Soluong = item.SoLuong,
                     DonGia = (int)item.GiaBan,
                     TongTien = (int)(item.SoLuong * item.GiaBan)
@@ -351,6 +354,39 @@ namespace DAPMver1.Controllers
             ViewBag.OrderId = maDonHang;
             ViewBag.OrderDetails = order;
             return View();
+        }
+        private void CreateInvoice(DonHang donHang, int userId)
+        {
+            // Tạo hóa đơn mới
+            HoaDon hoaDon = new HoaDon
+            {
+                MaHoaDon = Guid.NewGuid().ToString("N").Substring(0, 12).ToUpper(), // Tạo mã hóa đơn duy nhất
+                MaDonHang = donHang.MaDonHang,
+                MaNguoiDung = userId,
+                NgayXuatHoaDon = DateTime.Now,
+                TongTien = donHang.TongSoTien, // Tổng tiền hóa đơn bằng tổng số tiền đơn hàng
+                MaThanhToan = 1 // Bạn có thể thay thế bằng mã thanh toán thực tế nếu cần
+            };
+
+            // Lưu hóa đơn vào cơ sở dữ liệu
+            _context.HoaDons.Add(hoaDon);
+            _context.SaveChanges();
+        }
+        private void CreatePayment(DonHang donHang)
+        {
+            // Tạo hóa đơn mới
+            ThanhToan thanhToan = new ThanhToan
+            {
+                MaDonHang = donHang.MaDonHang,
+                PhuongThucThanhToan = "Trực tuyến",
+                NgayThanhToan = DateTime.Now,
+                TongTien = donHang.TongSoTien, // Tổng tiền hóa đơn bằng tổng số tiền đơn hàng
+                TrangThaiThanhToan = true
+            };
+
+            // Lưu hóa đơn vào cơ sở dữ liệu
+            _context.ThanhToans.Add(thanhToan);
+            _context.SaveChanges();
         }
 
     }

@@ -7,13 +7,13 @@ public partial class NguoiDung
 {
     public int MaNguoiDung { get; set; }
 
-    public string TenNguoiDung { get; set; } = null!;
+    public string TenNguoiDung { get; set; }
 
-    public string DiaChi { get; set; } = null!;
+    public string DiaChi { get; set; }
 
-    public string Sdt { get; set; } = null!;
+    public string Sdt { get; set; }
 
-    public string AnhDaiDien { get; set; } = null!;
+    public string AnhDaiDien { get; set; }
 
     public int MaChucVu { get; set; }
 
@@ -31,9 +31,9 @@ public partial class NguoiDung
 
     public virtual ICollection<HoaDon> HoaDons { get; set; } = new List<HoaDon>();
 
-    public virtual ChucVu MaChucVuNavigation { get; set; } = null!;
+    public virtual ChucVu MaChucVuNavigation { get; set; }
 
-    public virtual TaiKhoan MaTaiKhoanNavigation { get; set; } = null!;
+    public virtual TaiKhoan MaTaiKhoanNavigation { get; set; }
 
     public virtual ICollection<SanPhamYeuThich> SanPhamYeuThiches { get; set; } = new List<SanPhamYeuThich>();
 }

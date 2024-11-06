@@ -7,9 +7,9 @@ public partial class ThanhToan
 {
     public int MaThanhToan { get; set; }
 
-    public string MaDonHang { get; set; } = null!;
+    public string MaDonHang { get; set; }
 
-    public string PhuongThucThanhToan { get; set; } = null!;
+    public string PhuongThucThanhToan { get; set; }
 
     public DateTime? NgayThanhToan { get; set; }
 
@@ -19,5 +19,5 @@ public partial class ThanhToan
 
     public virtual ICollection<HoaDon> HoaDons { get; set; } = new List<HoaDon>();
 
-    public virtual DonHang MaDonHangNavigation { get; set; } = null!;
+    public virtual DonHang MaDonHangNavigation { get; set; }
 }

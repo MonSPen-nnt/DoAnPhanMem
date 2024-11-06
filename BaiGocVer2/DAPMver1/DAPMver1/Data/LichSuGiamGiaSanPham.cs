@@ -15,5 +15,5 @@ public partial class LichSuGiamGiaSanPham
 
     public DateTime? NgayCapNhat { get; set; }
 
-    public virtual SanPham MaSanPhamNavigation { get; set; } = null!;
+    public virtual SanPham MaSanPhamNavigation { get; set; }
 }

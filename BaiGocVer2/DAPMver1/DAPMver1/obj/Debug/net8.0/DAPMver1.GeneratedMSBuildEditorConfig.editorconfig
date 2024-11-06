@@ -50,6 +50,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcRGFuaE11Y3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Areas/Admin/Views/HoaDon/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9hRG9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Areas/Admin/Views/NguoiDungs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Areas/Admin/Views/NguoiDungs/Disable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nc1xEaXNhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Areas/Admin/Views/NguoiDungs/Enable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nc1xFbmFibGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Areas/Admin/Views/NguoiDungs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmd1b2lEdW5nc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Areas/Admin/Views/NhaCungCaps/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcTmhhQ3VuZ0NhcHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -168,6 +188,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/Home/StoreLocation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTdG9yZUxvY2F0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/CNTT/Nam3/DAPM/LT/DAPMver1/DAPMver1/Views/Product/ChiTietSP.cshtml]

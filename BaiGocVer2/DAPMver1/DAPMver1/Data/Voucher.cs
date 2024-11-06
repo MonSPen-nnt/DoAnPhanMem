@@ -7,7 +7,7 @@ public partial class Voucher
 {
     public int MaVoucher { get; set; }
 
-    public string TenVoucher { get; set; } = null!;
+    public string TenVoucher { get; set; }
 
     public int GiaTri { get; set; }
 

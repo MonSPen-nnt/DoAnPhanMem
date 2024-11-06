@@ -13,7 +13,7 @@ public partial class ChiTietGioHang
 
     public double GiaBan { get; set; }
 
-    public virtual GioHang MaGioHangNavigation { get; set; } = null!;
+    public virtual GioHang MaGioHangNavigation { get; set; }
 
-    public virtual KichCo MaKichCoNavigation { get; set; } = null!;
+    public virtual KichCo MaKichCoNavigation { get; set; }
 }

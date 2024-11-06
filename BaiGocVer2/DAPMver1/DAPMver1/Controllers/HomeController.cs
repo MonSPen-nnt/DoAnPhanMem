@@ -12,11 +12,12 @@ namespace DAPMver1.Controllers
         private readonly DapmTrangv1Context db;
 
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger, DapmTrangv1Context _db)
+        private readonly IConfiguration _configuration;
+        public HomeController(ILogger<HomeController> logger, DapmTrangv1Context _db, IConfiguration configuration)
         {
             db = _db;
             _logger = logger;
+            _configuration = configuration; 
         }
 
         public IActionResult Index()
@@ -26,6 +27,11 @@ namespace DAPMver1.Controllers
 
         public IActionResult Privacy()
         {
+            return View();
+        }
+        public IActionResult StoreLocation()
+        {
+            ViewBag.ApiKey = _configuration["GoogleMaps:ApiKey"];
             return View();
         }
 

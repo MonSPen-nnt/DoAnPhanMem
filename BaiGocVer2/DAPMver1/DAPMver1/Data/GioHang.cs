@@ -11,11 +11,11 @@ public partial class GioHang
 
     public DateTime? NgayTao { get; set; }
 
-    public string? TrangThai { get; set; }
+    public string TrangThai { get; set; }
 
     public double? TongTien { get; set; }
 
     public virtual ICollection<ChiTietGioHang> ChiTietGioHangs { get; set; } = new List<ChiTietGioHang>();
 
-    public virtual NguoiDung MaNguoiDungNavigation { get; set; } = null!;
+    public virtual NguoiDung MaNguoiDungNavigation { get; set; }
 }

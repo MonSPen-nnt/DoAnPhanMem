@@ -13,8 +13,11 @@ public partial class KichCo
 
     public int SoLuong { get; set; }
 
-    public virtual SanPham? MaSanPhamNavigation { get; set; }
+    public virtual ICollection<BaoHanh> BaoHanhs { get; set; } = new List<BaoHanh>();
+
+    public virtual ICollection<ChiTietDonHang> ChiTietDonHangs { get; set; } = new List<ChiTietDonHang>();
 
     public virtual ICollection<ChiTietGioHang> ChiTietGioHangs { get; set; } = new List<ChiTietGioHang>();
 
+    public virtual SanPham MaSanPhamNavigation { get; set; }
 }

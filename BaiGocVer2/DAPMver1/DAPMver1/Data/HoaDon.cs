@@ -5,9 +5,9 @@ namespace DAPMver1.Data;
 
 public partial class HoaDon
 {
-    public string MaHoaDon { get; set; } = null!;
+    public string MaHoaDon { get; set; }
 
-    public string MaDonHang { get; set; } = null!;
+    public string MaDonHang { get; set; }
 
     public int MaNguoiDung { get; set; }
 
@@ -17,9 +17,9 @@ public partial class HoaDon
 
     public int MaThanhToan { get; set; }
 
-    public virtual DonHang MaDonHangNavigation { get; set; } = null!;
+    public virtual DonHang MaDonHangNavigation { get; set; }
 
-    public virtual NguoiDung MaNguoiDungNavigation { get; set; } = null!;
+    public virtual NguoiDung MaNguoiDungNavigation { get; set; }
 
-    public virtual ThanhToan MaThanhToanNavigation { get; set; } = null!;
+    public virtual ThanhToan MaThanhToanNavigation { get; set; }
 }
